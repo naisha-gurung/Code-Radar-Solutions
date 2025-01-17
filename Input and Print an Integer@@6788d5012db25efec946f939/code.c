@@ -5,6 +5,6 @@
 int main() {
     int a;
     scanf("%d", &a);
-    printf("%s", a);
+    printf("%d", a);
     return 0;
 }
