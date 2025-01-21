@@ -9,7 +9,7 @@ int main(){
             printf("* ");
         }
         printf("\n");
-        n-=1;
+        x-=1;
     }
     return 0;
 }
