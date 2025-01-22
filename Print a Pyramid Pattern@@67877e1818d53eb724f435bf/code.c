@@ -5,10 +5,10 @@ int main() {
     int x=1;
     int y=n;
     scanf("%d",&n);
-    if(n==1){
-        printf("*");
-        return 0;
-    }
+    // if(n==1){
+    //     printf("*");
+    //     return 0;
+    // }
     printf("%d %d",x,y);
     for (int i=0;i<n;i++){
        
