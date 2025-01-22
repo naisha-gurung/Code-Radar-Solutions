@@ -3,9 +3,9 @@
 int main() {
     int n;
     int x=1;
-    int y=n;
     scanf("%d", &n);
     printf("%d",n);
+    int y=n;
     // if(n==1){
     //     printf("*");
     //     return 0;
