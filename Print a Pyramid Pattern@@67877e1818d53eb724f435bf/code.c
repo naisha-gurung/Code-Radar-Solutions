@@ -5,11 +5,12 @@ int main() {
     int x=1;
     int y=n;
     scanf("%d",&n);
+    if(n==1){
+        printf("*");
+        return 0;
+    }
     for (int i=0;i<n;i++){
-        if (n==1){
-            printf("*");
-            break;
-        }
+       
         printf("%d , %d",x,y);
         for(int j=1;j<y;j++){
             printf(" ");
