@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    char s[50]="ABCDEFGHIJKLMNOPQRTUVWXYZ"
+    char s[50]="ABCDEFGHIJKLMNOPQRTUVWXYZ";
     int n;
     scanf("%d",&n);
     int x=1
