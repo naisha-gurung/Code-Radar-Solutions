@@ -14,7 +14,5 @@ int main() {
         printf("\n");
         x+=2;
     }
-
-    printf("%s", welcome());
     return 0;
 }
