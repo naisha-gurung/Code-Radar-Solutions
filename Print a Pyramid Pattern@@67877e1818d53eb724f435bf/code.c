@@ -10,6 +10,7 @@ int main() {
             printf("*");
             break;
         }
+        print("%d , %d",x,y);
         for(int j=1;j<y;j++){
             printf(" ");
         }
