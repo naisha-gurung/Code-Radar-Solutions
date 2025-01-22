@@ -5,6 +5,7 @@ int main() {
     int x=1;
     int y=n;
     scanf("%d",&n);
+    printf("n";)
     // if(n==1){
     //     printf("*");
     //     return 0;
