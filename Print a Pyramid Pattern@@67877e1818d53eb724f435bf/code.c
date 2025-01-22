@@ -9,6 +9,7 @@ int main() {
         printf("*");
         return 0;
     }
+    printf("%d %d",x,y);
     for (int i=0;i<n;i++){
        
         printf("%d , %d",x,y);
