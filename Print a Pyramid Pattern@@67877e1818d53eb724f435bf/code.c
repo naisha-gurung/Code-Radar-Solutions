@@ -4,7 +4,7 @@ int main() {
     int n;
     int x=1;
     int y=n;
-    scanf("%d",&n);
+    scanf("%d", &n);
     printf("n");
     // if(n==1){
     //     printf("*");
