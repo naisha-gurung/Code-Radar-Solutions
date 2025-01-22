@@ -3,14 +3,11 @@
 int main() {
     int n;
     int x=1;
-    scanf("%d", &n);
-    printf("%d",n);
     int y=n;
-    // if(n==1){
-    //     printf("*");
-    //     return 0;
-    // }
-    printf("%d %d",x,y);
+    if(n==1){
+        printf("*");
+        return 0;
+    }
     for (int i=0;i<n;i++){
        
         printf("%d , %d",x,y);
