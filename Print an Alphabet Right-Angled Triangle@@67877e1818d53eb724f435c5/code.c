@@ -6,8 +6,7 @@ int main() {
     int x=1;
     for (int i=1;i<=n;i++){
         for(int j=0;j<x;j++){
-            printf("%s ",s[j]);
-
+            printf("%c ",s[j]);
         }
         x+=1;
         printf("\n");
