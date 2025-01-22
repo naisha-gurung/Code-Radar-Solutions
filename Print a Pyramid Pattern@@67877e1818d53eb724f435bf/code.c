@@ -6,6 +6,10 @@ int main() {
     int y=n;
     scanf("%d",&n);
     for (int i=0;i<n;i++){
+        if (n==1){
+            printf("*");
+            break;
+        }
         for (int j=0;j>y;j++){
             printf(" ");
         }
