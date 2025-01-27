@@ -14,8 +14,8 @@ int main() {
     new_arr[i]=arr[j];
     j+=1;
     }
-    j=j-1;
-    for(int i=0;i<j;i++){
+    // peintf("%d",j);
+    for(int i=0;i<b;i++){
         new_arr[i]=arr[j];
         j+=1;
     }
