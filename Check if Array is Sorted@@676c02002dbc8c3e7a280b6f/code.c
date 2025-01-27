@@ -8,7 +8,7 @@ int main() {
     }
     for(int i=1;i<n;i++){
         if(arr[i-1]>arr[i]){
-            print("Not Sorted");
+            printf("Not Sorted");
             return 0;
         }
     }
