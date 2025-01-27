@@ -19,7 +19,7 @@ int main() {
     //     new_arr[i]=arr[j];
     //     ++j;
     // }
-    // for(int i=0;i<n;i++)
+    for(int i=0;i<n;i++)
 {
     printf("%d \n", arr[i]);
 }    
