@@ -8,8 +8,9 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    // int b;
-    // scanf("%d",&b);
+    int b;
+    scanf("%d",&b);
+    printf("%d",b);
     // int j=0;
     // for(int i=b;i<n;i++){
     // new_arr[i]=arr[j];
