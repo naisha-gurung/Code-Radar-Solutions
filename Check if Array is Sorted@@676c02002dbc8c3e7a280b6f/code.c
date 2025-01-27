@@ -5,7 +5,13 @@ int main() {
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
-        printf("%d",arr[i]);
     }
+    for(int i=1;i<n;i++){
+        if(arr[i-1]>arr[i]){
+            print("Not Sorted");
+            return 0;
+        }
+    }
+    printf("Sorted");
     return 0;
 }
