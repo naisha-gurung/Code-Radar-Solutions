@@ -15,7 +15,7 @@ int main() {
     j+=1;
     }
     for(int i=0;i<j;i++){
-        new_arr[i]=arr[j];
+        new_arr[i]=arr[j-1];
         j+=1;
     }
     for(int i=0;i<n;i++)
