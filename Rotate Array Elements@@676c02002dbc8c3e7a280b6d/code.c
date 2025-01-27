@@ -10,19 +10,18 @@ int main() {
     }
     int b;
     scanf("%d",&b);
-    printf("%d",b);
-    // int j=0;
-    // for(int i=b;i<n;i++){
-    // new_arr[i]=arr[j];
-    // ++j;
-    // }
-    // for(int i=0;i<j;i++){
-    //     new_arr[i]=arr[j];
-    //     ++j;
-    // }
+    int j=0;
+    for(int i=b;i<n;i++){
+    new_arr[i]=arr[j];
+    j+=1;
+    }
+    for(int i=0;i<j;i++){
+        new_arr[i]=arr[j];
+        j+=1;
+    }
     for(int i=0;i<n;i++)
 {
-    printf("%d \n", arr[i]);
+    printf("%d \n", new_arr[i]);
 }    
 return 0;
 }
