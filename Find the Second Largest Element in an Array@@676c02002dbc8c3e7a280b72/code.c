@@ -8,17 +8,16 @@ int main() {
         scanf("%d",&arr[i]);
     }
     int max=arr[0];
-    while(count>1){
+    while(count1){
     for(int i=0;i<n;i++){
         if (max<arr[i]){
                 max=arr[i];
         }
-        else if (count==1){
+    }
+    temp=max;
+    for(int i=0;i<n;i++){
+        if(max<arr[i] && arr!=temp){
             max=arr[i];
-            count+=1;
-        }
-        else{
-            count+=1;
         }
     }
     }
