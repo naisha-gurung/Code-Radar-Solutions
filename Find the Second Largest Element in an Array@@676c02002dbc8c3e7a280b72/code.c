@@ -7,18 +7,19 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    int max=arr[0];
     for(int i=0;i<n;i++){
         if (max<arr[i]){
                 max=arr[i];
         }
         else if (count==1){
             max=arr[i];
-            ++count;
+            count+=1;
         }
         else{
-            ++count;
+            count+=1;
         }
     }
-    printf("%s", welcome());
+    printf("%d", max);
     return 0;
 }
