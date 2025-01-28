@@ -13,7 +13,7 @@ int main() {
         }
     }
     int temp=max;
-    max=arr[0]
+    max=arr[0];
     for(int i=0;i<n;i++){
         printf("%d %d",max,arr[i]);
         if(max<arr[i] && arr[i]!=temp){
