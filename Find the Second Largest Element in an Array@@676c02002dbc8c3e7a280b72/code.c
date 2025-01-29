@@ -19,6 +19,7 @@ int main() {
         if(max<arr[i] ){
             if(arr[i]==temp){
                 max=-1;
+                printf("%d",max);
                 return 0;
 
             }
