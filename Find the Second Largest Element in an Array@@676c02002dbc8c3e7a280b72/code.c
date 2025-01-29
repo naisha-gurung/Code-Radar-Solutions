@@ -17,13 +17,14 @@ int main() {
     int count=0;
     for(int i=0;i<n;i++){
         if(max<arr[i] ){
-            if(arr[i]==temp && count==1){
-                max=arr[i];
+            if(arr[i]==temp){
+                max=-1;
+                return 0;
 
             }
-            else if(arr[i]==temp && count==0){
-                count=1;
-            }
+            // else if(arr[i]==temp && count==0){
+            //     count=1;
+            // }
             else{
                 max=arr[i];
             }
