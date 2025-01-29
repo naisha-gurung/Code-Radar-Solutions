@@ -22,7 +22,7 @@ int main() {
 
             }
             else if(arr[i]==temp && count==0){
-                count=2;
+                count=1;
             }
             else{
                 max=arr[i];
