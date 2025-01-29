@@ -14,9 +14,19 @@ int main() {
     }
     int temp=max;
     max=arr[0];
+    int count=0;
     for(int i=0;i<n;i++){
-        if(max<arr[i] && arr[i]!=temp){
-            max=arr[i];
+        if(max<arr[i] ){
+            if(arr[i]==temp && count==1){
+                max=arr[i];
+
+            }
+            else if(arr[i]==temp && count==0){
+                count=2;
+            }
+            else{
+                max=arr[i];
+            }
         }
     }
     
