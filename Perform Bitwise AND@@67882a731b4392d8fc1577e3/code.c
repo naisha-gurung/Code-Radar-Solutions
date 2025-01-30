@@ -2,6 +2,7 @@
 int main() {
     int a,b;
     scanf("%d %d",&a,&b);
-    pritf("%d",a & b);
+    int c=a&b;
+    pritf("%d",c);
     return 0;
 }
