@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 bool check(int arr2[],int temp,int n){
+    if (n==0){
+        return true;
+    }
     for(int i=0;i<n;i++){
         if (temp==arr2[i]){
             return false;}}
