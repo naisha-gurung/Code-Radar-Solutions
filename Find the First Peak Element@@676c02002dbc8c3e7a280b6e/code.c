@@ -5,10 +5,8 @@ int main() {
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
-        printf("%d ",arr[i]);
     }
     for(int i=2;i<n;i++){
-       printf(":: %d %d %d\n",arr[i-2],arr[i-1],arr[i]);
         if (arr[i-2]<arr[i-1] && arr[i-1]>arr[i]){
             printf("%d",arr[i-1]);
             return 0;
