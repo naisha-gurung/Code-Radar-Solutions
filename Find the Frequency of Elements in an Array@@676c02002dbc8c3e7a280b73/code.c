@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 bool check(arr2,temp){
+    int n=sizeof(arr2)/sizeof(arr2[0]);
     for(int i=0;i<n;i++){
         if (temp==arr[2]){
             return false;
