@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
-bool check(int arr2,int temp){
-    int n=sizeof(arr2)/sizeof(arr2[0]);
+bool check(int arr2,int temp,int n){
     for(int i=0;i<n;i++){
-        if (temp==arr[2]){
+        if (temp==arr2[2]){
             return false;
         }
     }
@@ -20,7 +19,7 @@ int main() {
         scanf("%d",&arr[i]);
     }
     for (int i=0;i<n;i++){
-        if (check( arr2,arr[i])){
+        if (check( arr2,arr[i],n)){
         for(int j=0;j<n;j++){
         if (arr[i]==arr[j]){
             count+=1
