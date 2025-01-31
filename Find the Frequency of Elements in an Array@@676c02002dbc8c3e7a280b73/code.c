@@ -1,11 +1,11 @@
 #include <stdio.h>
-// #include <stdbool.h>
-// bool check(int arr2,int temp,int n){
-//     for(int i=0;i<n;i++){
-//         if (temp==arr2[i]){
-//             return false;}}
-//     return true;
-// }
+#include <stdbool.h>
+bool check(int arr2[],int temp,int n){
+    for(int i=0;i<n;i++){
+        if (temp==arr2[i]){
+            return false;}}
+    return true;
+}
 int main() {
     int n;
     scanf("%d",&n);
