@@ -16,14 +16,14 @@ int main() {
             return 0;
         }
     }
-    if (arr[0]>arr[1]){
-        printf("%d",arr[0]);
-        return 0;
-    }
-    else if(arr[n-1]<arr[n]){
-        printf("%d",arr[n]);
-        return 0;
-    }
+    // if (arr[0]>arr[1]){
+    //     printf("%d",arr[0]);
+    //     return 0;
+    // }
+    // else if(arr[n-1]<arr[n]){
+    //     printf("%d",arr[n]);
+    //     return 0;
+    // }
     printf("-1");
     return 0;
 }
