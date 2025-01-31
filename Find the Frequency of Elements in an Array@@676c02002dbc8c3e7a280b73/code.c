@@ -25,7 +25,7 @@ int main() {
         }
         printf("%d %d",arr[i],count);}
         arr2[x]=arr[i];
-        x+=1;
+        x++;
         count=0;
     }
     return 0;
