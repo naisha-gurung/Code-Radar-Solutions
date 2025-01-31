@@ -28,8 +28,8 @@ int main() {
         // // }
         // }
         printf("%d %d",arr[i],count);}
-        arr2[x]=arr[i];
-         x++;
+        // arr2[x]=arr[i];
+        //  x++;
         // count=0;
     }
     return 0;
