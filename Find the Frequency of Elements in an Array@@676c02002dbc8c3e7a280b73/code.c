@@ -24,7 +24,7 @@ int main() {
        if (check(arr2,arr[i],x)){
          for(int j=0;j<n;j++){
          if (arr[i]==arr[j]){
-        //     count+=1
+             count+=1
          }
          }
         printf("%d %d",arr[i],count);
