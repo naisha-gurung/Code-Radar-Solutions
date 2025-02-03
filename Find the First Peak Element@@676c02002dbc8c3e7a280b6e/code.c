@@ -6,11 +6,11 @@ int main() {
     for(int i=0;i<=n;i++){
         scanf("%d",&arr[i]);
     }
-    if(n==0 || n==1){
-        printf("2");
-        printf("%d",arr[0]);
-        return 0;
-    }
+    // if(n==0 || n==1){
+    //     printf("2");
+    //     printf("%d",arr[0]);
+    //     return 0;
+    // }
     // for(int i=2;i<=n;i++){
     //     printf("1");
     //     if ((arr[i-2]<arr[i-1] && arr[i-1]>arr[i]) ){
