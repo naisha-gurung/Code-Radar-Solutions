@@ -7,31 +7,28 @@ int main() {
         scanf("%d",&arr[i]);
     }
     int max=arr[0];
+    int index=0;
     for(int i=0;i<n;i++){
         if (max<arr[i]){
                 max=arr[i];
+                index=i;
         }
     }
-    int temp=max;
-    max=arr[0];
-    int count=0;
-    for(int i=0;i<n;i++){
-        if(max<arr[i] ){
-            if(arr[i]==temp){
-                max=-1;
-                printf("%d",max);
-                return 0;
-
-            }
-            else if(arr[i]==temp && count==0){
-                count=1;
-            }
-            else{
-                max=arr[i];
-            }
+    int j=0;
+    for(int i=0;i<n-1;i++){
+        if (i==index){
+            continue;
         }
+        arr2[j]=arr[i];
+        ++j;
     }
+    for(int i=0;i<n-1;i++){
+        if(max<arr2[i]){
+            max=arr2[i];
     
-    printf("%d", max);
-    return 0;
+        }
+    }
+
+    
+    return max;
 }
