@@ -29,7 +29,8 @@ int main() {
     
         }
     }
+    printf("%d",max);
 
     
-    return max;
+    return 0;
 }
