@@ -22,13 +22,13 @@ int main() {
     for (int i=0;i<n;i++){
         count=0;
     //     if (check(arr2,arr[i],x)){
-    //     for(int j=0;j<n;j++){
-    //     if (arr[i]==arr[j]){
-    //         count+=1
-    //     }
-    //     }
-    //     printf("%d %d",arr[i],count);
-    //     }
+        for(int j=0;j<n;j++){
+        if (arr[i]==arr[j]){
+            count+=1
+        }
+        }
+        printf("%d %d",arr[i],count);
+        }
         arr2[x]=arr[i];
          x++;
         count=0;
