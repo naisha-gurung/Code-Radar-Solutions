@@ -19,8 +19,8 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    // for (int i=0;i<n;i++){
-    //     count=0;
+    for (int i=0;i<n;i++){
+        count=0;
     //     if (check(arr2,arr[i],x)){
     //     for(int j=0;j<n;j++){
     //     if (arr[i]==arr[j]){
@@ -32,6 +32,6 @@ int main() {
     //     arr2[x]=arr[i];
     //      x++;
     //     count=0;
-    // }
+    }
     return 0;
 }
