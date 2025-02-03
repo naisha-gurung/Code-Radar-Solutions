@@ -23,9 +23,9 @@ int main() {
                 return 0;
 
             }
-            // else if(arr[i]==temp && count==0){
-            //     count=1;
-            // }
+            else if(arr[i]==temp && count==0){
+                count=1;
+            }
             else{
                 max=arr[i];
             }
