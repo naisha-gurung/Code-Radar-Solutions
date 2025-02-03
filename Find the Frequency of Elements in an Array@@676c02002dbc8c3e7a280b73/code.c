@@ -27,7 +27,7 @@ int main() {
         //     count+=1
         // }
         // }
-        // printf("%d %d",arr[i],count);
+        printf("%d %d",arr[i],count);
         }
         arr2[x]=arr[i];
          x++;
