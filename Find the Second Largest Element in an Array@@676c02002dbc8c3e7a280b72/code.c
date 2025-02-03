@@ -24,7 +24,7 @@ int main() {
         ++j;
     }
     for(int i=0;i<n-1;i++){
-        printf("%d",arr2[i]);
+        printf("%d",index);
         if(max<arr2[i]){
             max=arr2[i];
     
