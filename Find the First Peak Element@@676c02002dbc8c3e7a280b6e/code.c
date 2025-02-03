@@ -11,6 +11,7 @@ int main() {
         return 0;
     }
     for(int i=2;i<=n;i++){
+        printf("1");
         if ((arr[i-2]<arr[i-1] && arr[i-1]>arr[i]) ){
             printf("%d",arr[i-1]);
             return 0;
