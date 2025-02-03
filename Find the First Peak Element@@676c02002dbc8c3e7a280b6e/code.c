@@ -16,6 +16,7 @@ int main() {
             return 0;
         }
     }
+    print(1);
     if (arr[0]>arr[1]){
         printf("%d",arr[0]);
         return 0;
