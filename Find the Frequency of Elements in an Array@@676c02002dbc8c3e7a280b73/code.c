@@ -15,23 +15,23 @@ int main() {
     int x=0;
     int arr[n];
     int arr2[n];
-    // int count=0;
+    int count=0;
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     for (int i=0;i<n;i++){
-        // int count=0;
-        // if (check(arr2,arr[i],x)){
-        // // for(int j=0;j<n;j++){
-        // // if (arr[i]==arr[j]){
-        // //     count+=1
-        // // }
-        // }
-        // printf("%d %d",arr[i],count);
+        count=0;
+        if (check(arr2,arr[i],x)){
+        for(int j=0;j<n;j++){
+        if (arr[i]==arr[j]){
+            count+=1
         }
-        // arr2[x]=arr[i];
-        //  x++;
-        // count=0;
+        }
+        printf("%d %d",arr[i],count);
+        }
+        arr2[x]=arr[i];
+         x++;
+        count=0;
     }
     return 0;
 }
