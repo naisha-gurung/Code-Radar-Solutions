@@ -22,7 +22,7 @@ int main() {
         }
         arr2[j]=arr[i];
         ++j;
-        printf("%d %d %d %d\n",i,index,arr[i],arr2[j]);
+        printf("%d %d %d %d %d\n",i,index,j,arr[i],arr2[j]);
     }
     for(int i=0;i<n-1;i++){
         if(max<arr2[i]){
