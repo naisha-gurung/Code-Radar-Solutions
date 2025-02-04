@@ -18,7 +18,7 @@ int main() {
     int j=0;
     for(int i=0;i<n-1;i++){
         if (i!=index){
-            arr2[j]=arr[i];
+            arr2.add(arr[i]);
             ++j;
 
         }
