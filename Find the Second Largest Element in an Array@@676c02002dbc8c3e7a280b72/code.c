@@ -6,11 +6,21 @@ int main() {
     if(n==1){
         printf("%d",-1);
         return 0;
+    
     }
     int arr[n];
     int arr2[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
+    }
+    if(n==2){
+        if(arr[1]>arr[0]){
+            printf("%d",arr[0]);
+        }
+        else{
+            printf("%d",arr[1]);
+        }
+        return 0;
     }
     int max=arr[0];
     int index=0;
