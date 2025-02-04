@@ -3,7 +3,7 @@ int main() {
     int n;
     scanf("%d",&n);
     int arr[n];
-    int arr2[n-1];
+    int arr2[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
@@ -17,11 +17,11 @@ int main() {
     }
     int j=0;
     for(int i=0;i<n-1;i++){
-        if (i!=index){
+        //if (i!=index){
             arr2[j]=arr[i];
             ++j;
 
-        }
+       // }
         printf("%d %d %d %d %d\n",i,index,j,arr[i],arr2[j]);
     }
     for(int i=0;i<n-1;i++){
