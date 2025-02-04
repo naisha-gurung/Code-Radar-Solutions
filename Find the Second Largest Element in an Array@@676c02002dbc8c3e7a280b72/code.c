@@ -24,6 +24,7 @@ int main() {
        }
         printf("%d %d %d %d %d\n",i,index,j,arr[i],arr2[j-1]);
     }
+    max=arr2[0];
     for(int i=0;i<n-1;i++){
         if(max<arr2[i]){
             max=arr2[i];
