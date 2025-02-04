@@ -19,7 +19,7 @@ int main() {
     for(int i=0;i<n-1;i++){
         //if (i!=index){
             arr2[j]=arr[i];
-            j++;
+            ++j;
 
        // }
         printf("%d %d %d %d %d\n",i,index,j,arr[i],arr2[j]);
