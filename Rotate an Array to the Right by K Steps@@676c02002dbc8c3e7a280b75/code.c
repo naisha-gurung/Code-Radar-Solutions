@@ -9,6 +9,9 @@ int main() {
     }
     int b;
     scanf("%d",&b);
+    if( b>n){
+        b=b-n;
+    }
     int j=0;
     int arr2[n];
     for(int i=b;i<n;i++){
