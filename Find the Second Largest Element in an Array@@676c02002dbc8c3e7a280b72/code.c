@@ -16,12 +16,12 @@ int main() {
         }
     }
     int j=0;
-    for(int i=0;i<n-1;i++){
-        //if (i!=index){
+    for(int i=0;i<n;i++){
+        if (i!=index){
             arr2[j]=arr[i];
             j+=1;
 
-       // }
+       }
         printf("%d %d %d %d %d\n",i,index,j,arr[i],arr2[j]);
     }
     for(int i=0;i<n-1;i++){
