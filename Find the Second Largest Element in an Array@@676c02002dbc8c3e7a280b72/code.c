@@ -27,23 +27,23 @@ int main() {
 
        }
     }
-   // bool c=false;
+   bool c=false;
     int max2=arr2[0];
     for(int i=0;i<n-1;i++){
         if(max2<arr2[i]){
             if(max !=arr2[i]){
             max2=arr2[i];
-          //  c=true;
+            c=true;
             }
     
         }
     }
     
    
-//    if (c==false){
-//     printf("%d",-1);
-//     return 0;
-//    }
+   if (c==false){
+    printf("%d",-1);
+    return 0;
+   }
     printf("%d",max2);
     return 0;
 }
