@@ -42,7 +42,7 @@ int main() {
     int max2=arr2[0];
     for(int i=0;i<n-1;i++){
         printf("%d %d\n",max2,arr2[i]);
-        if(max2<arr2[i]){
+        if(max2<=arr2[i]){
             if(max !=arr2[i]){
             max2=arr2[i];
             c=true;
