@@ -33,7 +33,7 @@ int main() {
         if(max2<arr2[i]){
             if(max !=max2){
             max2=arr2[i];
-            c=True;
+            c=true;
             }
     
         }
