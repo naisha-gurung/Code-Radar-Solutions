@@ -25,7 +25,6 @@ int main() {
             j+=1;
 
        }
-       // printf("%d %d %d %d %d\n",i,index,j,arr[i],arr2[j-1]);
     }
     int max2=arr2[0];
     for(int i=0;i<n-1;i++){
