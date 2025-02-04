@@ -40,10 +40,10 @@ int main() {
     }
     
    }
-   if (c==false){
-    printf("%d",-1);
-    return 0;
-   }
+//    if (c==false){
+//     printf("%d",-1);
+//     return 0;
+//    }
     printf("%d",max2);
 
     
