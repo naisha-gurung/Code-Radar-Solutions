@@ -2,12 +2,13 @@
 int main() {
     int n;
     scanf("%d",&n);
+    char st[20];
     if(n%5==0 || n%11==0){
-        char st[50]="Divisible"
+        st="Divisible"
         printf("s",st);
         return 0;
     }
-    char st[50]="Not Divisible";
+    st="Not Divisible";
     printf("%s",st);
     return 0;
 }
