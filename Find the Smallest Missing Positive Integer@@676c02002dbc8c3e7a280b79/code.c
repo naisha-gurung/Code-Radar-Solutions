@@ -26,10 +26,10 @@ int main() {
             max=arr2[i];
         }
     }
-    int sum=0;
-    for(int i=min;i<max+1;i++){
-        sum2+=arr2[i];
-    }
-    printf("%d",sum2-sum);
+    // int sum=0;
+    // for(int i=min;i<max+1;i++){
+    //     sum2+=arr2[i];
+    // }
+    // printf("%d",sum2-sum);
     return 0;
 }
