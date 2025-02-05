@@ -8,10 +8,10 @@ int main() {
     }
     int j=0;
     for(int i=0;i<n;i++){
-        if (arr[i]>0){
-            arr2[j]=arr[i];
-            ++j;
-        }
+        // if (arr[i]>0){
+        //     arr2[j]=arr[i];
+        //     ++j;
+        // }
     }
     // int sum=0;
     // int min=arr2[0];
