@@ -9,6 +9,6 @@ int main() {
     //     return 0;
     // }
     st="Not Divisible";
-    printf("%s",st);
+    // printf("%s",st);
     return 0;
 }
