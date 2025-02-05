@@ -14,6 +14,10 @@ int main() {
             ++j;
          }
     }
+    if(j==0){
+        printf("%d",1);
+        return 0;
+    }
     int sum=0;
     int min=arr2[0];
     int max=arr2[0];
