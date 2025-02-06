@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     char c;
-    scanf("%c",&ch);
+    scanf("%c",&c);
     // char st[5][20]={"Excellent","Good","Average","Below Average","Fail"};
     // int i=6;
     // char s1[5]={'A','B','C','D','F'};
