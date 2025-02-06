@@ -12,13 +12,13 @@ int main() {
         arr2[i]=arr[j];
         ++j;
     }
-    // for(int i=0;i<n;i++){
-    //     if (arr[i]!=arr2[i]){
-    //         printf("No");
-    //         return 0;
-    //     }
-    // }
-    // printf("Yes");
+    for(int i=0;i<n;i++){
+        if (arr[i]!=arr2[i]){
+            printf("No");
+            return 0;
+        }
+    }
+    printf("Yes");
     
     return 0;
 }
