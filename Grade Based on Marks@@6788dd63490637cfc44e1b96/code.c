@@ -5,9 +5,9 @@ int main() {
     if (n>=90){
         printf("%c",'A');
     }
-    // else if(n>=80){
-    //     printf("%c",'B');
-    // }
+    else if(n>=80){
+        printf("%c",'B');
+    }
     // else if(n>=70){
     //     printf("%c",'C');
     // }
