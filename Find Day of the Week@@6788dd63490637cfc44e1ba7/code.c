@@ -4,7 +4,7 @@ int main() {
     scanf("%d",&n);
     if(n<0 || n>7 ){
         // printf("Invalid");
-        //  return 0;
+         return 0;
     }
     char arr[7][20]={"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"};
     printf("%s",arr[n-1]);
