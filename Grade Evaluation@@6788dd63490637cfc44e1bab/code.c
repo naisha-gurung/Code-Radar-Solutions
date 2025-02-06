@@ -11,7 +11,7 @@ int main() {
         }
     }
     if(i==6){
-        printf("Invalid Grade");
+        printf("Invalid grade");
         return 0;
     }
     printf("%s",st[i]);
