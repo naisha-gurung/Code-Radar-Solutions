@@ -11,11 +11,11 @@ int main() {
     else if(n>=70){
         printf("%c",'C');
     }
-    else id(n>=60){
+    else if(n>=60){
         printf("%c",'D');
     }
-    // else{
-    //     printf("%c",'F');
-    // }
+    else{
+        printf("%c",'F');
+    }
     return 0;
 }
