@@ -11,9 +11,9 @@ int main() {
     else if(n>=70){
         printf("%c",'C');
     }
-    // else id(n>=60){
-    //     printf("%c",'D');
-    // }
+    else id(n>=60){
+        printf("%c",'D');
+    }
     // else{
     //     printf("%c",'F');
     // }
