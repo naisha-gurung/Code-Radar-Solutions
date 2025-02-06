@@ -8,7 +8,7 @@ int main() {
     //     printf("s",st);
     //     return 0;
     // }
-    st="Not Divisible";
+    // st="Not Divisible";
     // printf("%s",st);
     return 0;
 }
