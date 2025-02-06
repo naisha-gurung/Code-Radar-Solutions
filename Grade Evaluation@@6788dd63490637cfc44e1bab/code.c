@@ -2,7 +2,7 @@
 int main() {
     char c;
     scanf("%c",&ch);
-    char st[5][20]={"Excellent","Good","Average","Below Average","Fail"};
+    // char st[5][20]={"Excellent","Good","Average","Below Average","Fail"};
     // int i=6;
     // char s1[5]={'A','B','C','D','F'};
     // for(int j=0;j<5;j++){
