@@ -7,7 +7,7 @@ int main() {
     if(c>='A' && c<='Z'){
         printf("%s",a);
     }
-    else if( c>='a' && c>='z'){
+    else if( c>='a' && c<='z'){
         printf("%s",b);
     }
     return 0;
