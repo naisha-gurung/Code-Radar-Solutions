@@ -13,7 +13,8 @@ int main() {
         printf("%d",a-b);
     }
     else if(c=='/'){
-        printf("%d",int(a/b));
+        int m=a/b;
+        printf("%d",m);
     }
     else{
         printf("Error");
