@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     char c;
-    scanf("%d",&c);
+    scanf("%c",&c);
     char a[10]="Uppercase";
     char b[10]="Lowercase";
     if(c>='A' && c<='Z'){
