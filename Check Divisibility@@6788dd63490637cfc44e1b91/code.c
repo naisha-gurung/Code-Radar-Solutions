@@ -2,7 +2,7 @@
 int main() {
     int n;
     scanf("%d",&n);
-    char st[20];
+    char st[20]="Bls";
     // if(n%5==0 || n%11==0){
     //     st="Divisible"
     //     printf("s",st);
