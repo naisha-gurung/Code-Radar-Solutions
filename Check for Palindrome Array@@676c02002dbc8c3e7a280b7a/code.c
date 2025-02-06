@@ -14,7 +14,7 @@ int main() {
     }
     for(int i=0;i<n;i++){
         if (arr[i]!=arr2[i]){
-            printf("N0");
+            printf("NO");
             return 0;
         }
     }
