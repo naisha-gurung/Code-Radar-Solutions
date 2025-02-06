@@ -3,7 +3,7 @@ int main() {
     int n;
     scanf("%d",&n);
     if(n<0 || n>7 ){
-        // printf("Invalid");
+        printf("Invalid");
          return 0;
     }
     char arr[7][20]={"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"};
