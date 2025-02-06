@@ -7,11 +7,11 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    // int j=0;
-    // for(int =n-1;i>=0;i--){
-    //     arr2[i]=arr[j];
-    //     ++j;
-    // }
+    int j=0;
+    for(int =n-1;i>=0;i--){
+        arr2[i]=arr[j];
+        ++j;
+    }
     // for(int i=0;i<n;i++){
     //     if (arr[i]!=arr2[i]){
     //         printf("No");
