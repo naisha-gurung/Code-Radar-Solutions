@@ -34,5 +34,14 @@ int main() {
         arr2[k][0]=arr[i];
         ++k;
     }
+    int mi=0;
+    int max=arr[0];
+    for(int i=0;i<n;i++){
+        if(arr2[i][1]>max){
+            max=arr2[i][1];
+            mi=i;
+        }
+    }
+    printf("%d",arr2[mi][0]);
     return 0;
 }
