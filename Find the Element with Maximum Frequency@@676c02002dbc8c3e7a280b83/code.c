@@ -37,7 +37,6 @@ int main() {
     int mi=0;
     int max=arr[0];
     for(int i=0;i<k;i++){
-        printf("%d %d\n",arr2[i][0],arr2[i][1]);
         if(arr2[i][1]>max){
             max=arr2[i][1];
             mi=i;
