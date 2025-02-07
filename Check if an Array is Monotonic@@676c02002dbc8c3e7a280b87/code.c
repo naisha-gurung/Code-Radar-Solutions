@@ -16,12 +16,12 @@ int main() {
             ++count1;
         }
     }
-    if(count1==n || count==n){
-        printf("YES");
-        return 0;
-    }
-    printf("NO");
-    
+    // if(count1==n || count==n){
+    //     printf("YES");
+    //     return 0;
+    // }
+    // printf("NO");
+
 
 
     return 0;
