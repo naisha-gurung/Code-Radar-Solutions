@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 
 
@@ -11,6 +12,7 @@ int main() {
     }
     int k=1;
     int arr2[n];
+    bool c=true;
     arr2[0]=arr[0];
     for(int i=1;i<n-1;i++){
         for(int j=0;j<k;j++){
@@ -24,6 +26,7 @@ int main() {
         //     arr2[k]=arr[i];
 
         // }
+        c=true;
     }
 
 
