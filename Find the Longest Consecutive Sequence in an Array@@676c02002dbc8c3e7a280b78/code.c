@@ -27,6 +27,10 @@ int main() {
             count=1;   
                }
     }
+    if(max<count){
+                max=count;
+            }  
+
     printf("%d",max);
     return 0;
 }
