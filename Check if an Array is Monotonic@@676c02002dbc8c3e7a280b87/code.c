@@ -16,7 +16,7 @@ int main() {
             ++count1;
         }
     }
-    if(count1==n || count==n){
+    if(count1==n-1 || count==n-1){
         printf("YES");
         return 0;
     }
