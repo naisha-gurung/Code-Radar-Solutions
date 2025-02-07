@@ -8,10 +8,10 @@ int main() {
     int count;
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
-    //     if(arr[i]==0){
-    //        ++count;
-    //     }
-    //     else{
+        if(arr[i]==0){
+           ++count;
+        }
+        // else{
     //         arr2[j]=arr[i];
     //         ++j;
     //     }
