@@ -9,6 +9,22 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    int k=1;
+    int arr2[n];
+    arr2[0]=arr[0];
+    for(int i=1;i<n-1;i++){
+        for(int j=0;j<k;j++){
+            if(arr2[i]==arr[j]){
+                c=false;
+                break;
+            }
+        }
+        k++;
+        if(c==true){
+            arr2[k]=arr[i];
+
+        }
+    }
 
 
     for(int i=0;i<n-1;i++){
