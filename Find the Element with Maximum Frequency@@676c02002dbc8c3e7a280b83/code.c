@@ -1,5 +1,6 @@
 #include <stdio.h>
-void check(int n;int arr[][],int j){
+#include <stdbool.h>
+bool check(int n;int arr[][],int j){
     for(int i=0;i<j;i++){
         if(arr[i][0]==n){
             return true;
