@@ -13,6 +13,9 @@ int main() {
         count=count+(arr[i]%10);
         arr[i]=arr[i]/10;
        }
+       if(count<0){
+        count=count+(count*2);
+       }
         printf("%d ",count);
     }
     return 0;
