@@ -14,7 +14,7 @@ int main() {
         arr[i]=arr[i]/10;
        }
        if(count<0){
-        count=count+(count*2);
+        count=count*-1;
        }
         printf("%d ",count);
     }
