@@ -28,8 +28,8 @@ int main() {
                 ++count;
             }
         }
-        arr2[j][1]=count;
-        arr2[j][0]=arr[i];
+        arr2[i][1]=count;
+        arr2[i][0]=arr[i];
         ++j;
     }
     return 0;
