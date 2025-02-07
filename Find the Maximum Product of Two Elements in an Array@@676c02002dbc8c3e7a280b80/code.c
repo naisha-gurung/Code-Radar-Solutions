@@ -5,29 +5,19 @@ int main() {
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
-        if(arr[i]<0){
-            arr[i]=arr[i];
+    }
+    int temp;
+    int max=arr[0];
+    for(int i=0;i<n-1;i++){
+        for(int j=i+1;j<n;j++){
+            temp=arr[i]*arr[j];
+            if(temp>max){
+                max=temp;
+            }
         }
 
     }
-    for(int i=0;i<n-1;i++){
-        for(int j=0;j<n-i-1;j++){
-            if(arr[j]>arr[j+1]){
-                int a=arr[j+1];
-                arr[j+1]=arr[j];
-                arr[j]=a;
-            }
-        }
-    }
-    int ans=arr[n-1]*arr[n-2];
-    int ans2=arr[0]*arr[n-1];
-    int x;
-    if(ans>ans2){
-        x=ans;
-    }
-    else{
-        x=ans2;
-    }
+    
     printf("%d",x);
     return 0;
 }
