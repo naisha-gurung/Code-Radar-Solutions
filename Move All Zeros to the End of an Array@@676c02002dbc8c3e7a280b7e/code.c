@@ -6,8 +6,8 @@ int main() {
     int arr2[n];
     int j=0;
     int count;
-    // for(int i=0;i<n;i++){
-    //     scanf("%d",&arr[i]);
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
     //     if(arr[i]==0){
     //        ++count;
     //     }
@@ -15,7 +15,7 @@ int main() {
     //         arr2[j]=arr[i];
     //         ++j;
     //     }
-    // }
+    }
     // for(int i=j;i<n;i++){
     //     arr2[i]=0;
     // }
