@@ -28,9 +28,9 @@ int main() {
                 ++count;
             }
         }
-        arr2[k][1]=count;
-        arr2[k][0]=arr[i];
-        ++k;
+        // arr2[k][1]=count;
+        // arr2[k][0]=arr[i];
+        // ++k;
     }
     return 0;
 }
