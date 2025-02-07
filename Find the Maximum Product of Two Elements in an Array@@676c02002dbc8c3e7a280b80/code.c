@@ -22,7 +22,7 @@ int main() {
     int ans=arr[n-1]*arr[n-2];
     int ans2=arr[0]*arr[n-1];
     int x;
-    if(ans>ans){
+    if(ans>ans2){
         x=ans;
     }
     else{
