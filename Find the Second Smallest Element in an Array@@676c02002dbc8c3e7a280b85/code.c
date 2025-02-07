@@ -20,6 +20,7 @@ int main() {
             }
         }
     }
+    printf("%d",arr[1]);
     
     return 0;
 }
