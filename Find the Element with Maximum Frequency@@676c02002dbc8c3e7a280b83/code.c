@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdbool.h>
 bool check(int n;int arr[][],int j){
-    for(int i=0;i<j;i++){
-        if(arr[i][0]==n){
-            return true;
-        }
-    }
+    // for(int i=0;i<j;i++){
+    //     if(arr[i][0]==n){
+    //         return true;
+    //     }
+    // }
     return false;
 }
 int main() {
