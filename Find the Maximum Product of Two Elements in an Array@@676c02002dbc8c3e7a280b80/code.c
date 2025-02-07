@@ -6,7 +6,7 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
         if(arr[i]<0){
-            arr[i]=arr[i]*-1;
+            arr[i]=arr[i];
         }
 
     }
@@ -19,6 +19,15 @@ int main() {
             }
         }
     }
-    printf("%d",arr[n-1]*arr[n-2]);
+    int ans=arr[n-1]*arr[n-2];
+    int ans2=arr[0]*arr[n-1];
+    int x;
+    if(ans>ans){
+        x=ans;
+    }
+    else{
+        x=ans2;
+    }
+    printf("%d",x);
     return 0;
 }
