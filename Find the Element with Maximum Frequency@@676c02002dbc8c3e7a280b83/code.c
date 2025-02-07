@@ -22,12 +22,12 @@ int main() {
         // if check(arr[i],arr2,k){
         //         continue;
         //     }
-        count=0;
-        for(int j=0;j<n;j++){
-            // if(arr[i]==arr[j]){
-            //     ++count;
-            // }
-        }
+        // count=0;
+        // for(int j=0;j<n;j++){
+        //     // if(arr[i]==arr[j]){
+        //     //     ++count;
+        //     // }
+        // }
         // arr2[k][1]=count;
         // arr2[k][0]=arr[i];
         // ++k;
