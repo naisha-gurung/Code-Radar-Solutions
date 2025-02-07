@@ -21,7 +21,7 @@ int main() {
     int count=0;
     int k=0;
     for(int i=0;i<n;i++){
-        if check(arr[i],arr2,k){
+        if (check(arr[i],arr2,k)){
                 continue;
             }
         count=0;
