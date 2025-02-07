@@ -21,11 +21,11 @@ int main() {
                 break;
             }
         }
-        // k++;
-        // if(c==true){
-        //     arr2[k]=arr[i];
+        k++;
+        if(c==true){
+            arr2[k]=arr[i];
 
-        // }
+        }
         c=true;
     }
 
