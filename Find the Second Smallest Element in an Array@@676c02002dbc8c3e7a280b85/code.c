@@ -39,7 +39,7 @@ int main() {
             }
         }
     }
-    for(int i=0;i<n;i++){
+    for(int i=0;i<k;i++){
         printf("%d ",arr2[i]);
     }
     printf("\n%d",arr[1]);
