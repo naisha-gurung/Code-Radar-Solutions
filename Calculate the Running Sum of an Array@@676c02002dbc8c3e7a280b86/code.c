@@ -7,7 +7,7 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d",&temp);
         sum=sum+temp;
-        printf("%d",sum);
+        printf("%d ",sum);
     }
     return 0;
 }
