@@ -19,9 +19,9 @@ int main() {
     for(int i=j;i<n;i++){
         arr2[i]=0;
     }
-    // for(int i=0;i<n;i++){
-    //    printf(arr2[i]);
-    // }
+    for(int i=0;i<n;i++){
+       printf("%d",arr2[i]);
+    }
 
     return 0;
 }
