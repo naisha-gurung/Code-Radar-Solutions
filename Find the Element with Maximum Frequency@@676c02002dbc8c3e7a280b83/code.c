@@ -24,9 +24,9 @@ int main() {
         //     }
         count=0;
         for(int j=0;j<n;j++){
-            if(arr[i]==arr[j]){
-                ++count;
-            }
+            // if(arr[i]==arr[j]){
+            //     ++count;
+            // }
         }
         // arr2[k][1]=count;
         // arr2[k][0]=arr[i];
