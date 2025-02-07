@@ -11,10 +11,10 @@ int main() {
         if(arr[i]==0){
            ++count;
         }
-        // else{
-    //         arr2[j]=arr[i];
-    //         ++j;
-    //     }
+        else{
+            arr2[j]=arr[i];
+            ++j;
+        }
     }
     // for(int i=j;i<n;i++){
     //     arr2[i]=0;
