@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-bool check(int n; int arr[][2], int j){
+bool check(int n, int arr[][], int j){
     
-//     for(int i=0; i<j ;i++){
-//         if(arr[i][0]==n){
-//             return true;
-//         }
-//     }
-//     return false;
+    for(int i=0; i<j ;i++){
+        if(arr[i][0]==n){
+            return true;
+        }
+    }
+    return false;
  }
 int main() {
       int n;
