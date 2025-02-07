@@ -7,9 +7,11 @@ int main() {
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        int a=arr[i]/10;
-        int b=arr[i]%10;
-        printf("%d ",a+b);
+       while(arr[i]!=0){
+        count=count+(arr[i]%10);
+        arr[i]=arr[i]/10;
+       }
+        printf("%d ",ans);
     }
     return 0;
 }
