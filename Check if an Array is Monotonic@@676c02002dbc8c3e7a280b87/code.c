@@ -16,7 +16,6 @@ int main() {
             ++count1;
         }
     }
-    printf("%d %d",count1,count);
     if(count1==n-1 || count==n-1){
         printf("YES");
         return 0;
