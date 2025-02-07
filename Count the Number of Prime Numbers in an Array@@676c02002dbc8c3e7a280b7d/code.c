@@ -8,7 +8,7 @@ int main() {
     }
     int count=0;
     bool c=true;
-    for(int i=0;i<n;i++){
+    // for(int i=0;i<n;i++){
         // c=true;
         // for(int j=2;j<arr[i];j++){
         //     if(arr[i]%j==0){
@@ -19,7 +19,7 @@ int main() {
         //     if(c==true){
         //         ++count;
         //     }
-    }
+    // }
     printf("%d",count);
     return 0;
 }
