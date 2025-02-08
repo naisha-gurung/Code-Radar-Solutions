@@ -18,6 +18,10 @@ int main() {
         printf("%d",-1);
         return 0;
     }
+    if(k==1){
+        printf("%d",arr2[0]);
+        return 0;
+    }
  for(int i=0;i<k-1;i++){
         for(int j=0;j<k-i-1;j++){
             if (arr2[j]>arr2[j+1]){
