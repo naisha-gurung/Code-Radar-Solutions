@@ -8,14 +8,14 @@ int main() {
     for(int i=0;i<n;i++){
        scanf("%d %s %f",&a[i] ,&b[i],&c[i] );
     }
-    float max=arr[0];
+    float max=c[0];
     int index=0;
-    // for(int i=0;i<n;i++){
-    //     if(max<c[i]){
-    //         max=c[i];
-    //         index=i;
-    //     }
-    // }
-    //   printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f\n",a[index],b[index],c[index]);
+    for(int i=0;i<n;i++){
+        if(max<c[i]){
+            max=c[i];
+            index=i;
+        }
+    }
+      printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f\n",a[index],b[index],c[index]);
     return 0;
 }
