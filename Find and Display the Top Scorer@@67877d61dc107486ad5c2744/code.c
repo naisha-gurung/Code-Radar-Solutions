@@ -11,8 +11,8 @@ int main() {
     int max=arr[0];
     int index=0;
     for(int i=0;i<n;i++){
-        if(max<b[i]){
-            max=b[i];
+        if(max<c[i]){
+            max=c[i];
             index=i;
         }
     }
