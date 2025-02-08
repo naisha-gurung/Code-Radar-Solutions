@@ -19,6 +19,7 @@ int main() {
     int ans=arr[0];
     for(int i=1;i<n;i++){
         int count=1;
+        printf("%d %d",max,count);
         if(arr[i-1]==arr[i]){
             ++count;
         }
