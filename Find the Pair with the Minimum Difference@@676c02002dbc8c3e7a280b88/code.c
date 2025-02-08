@@ -26,6 +26,6 @@ int main() {
     //         b=arr[i-1];
     //     }
     // }
-    printf("%d %d",a,b);
+    // printf("%d %d",a,b);
     return 0;
 }
