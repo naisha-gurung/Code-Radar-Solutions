@@ -14,11 +14,11 @@ int main() {
             arr2[k]=arr[i];
             ++k;
         }
-        // else if (arr[i]>=sum){
-        //     arr2[k]=arr[i];
-        //     ++k;
-        //     sum=sum+arr[i];
-        // }
+        else if (arr[i]>=sum){
+            arr2[k]=arr[i];
+            ++k;
+            sum=sum+arr[i];
+        }
         // else{
         //     sum=sum+arr[i];
         // }
