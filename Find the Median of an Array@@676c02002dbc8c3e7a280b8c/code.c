@@ -13,6 +13,6 @@ int main() {
     else{
         ans=(arr[((n+1)/2)+1]);
     }
-    // printf("%d",ans);
+    printf("%d",ans);
     return 0;
 }
