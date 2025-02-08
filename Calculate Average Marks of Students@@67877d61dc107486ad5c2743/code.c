@@ -9,7 +9,7 @@ int main() {
        scanf("%d %s %f",&a ,&b[i],&c );
     
     }
-    float sum;
+    float sum=0;
      for(int i=0;i<n;i++){
         sum+=c[i];
      }
