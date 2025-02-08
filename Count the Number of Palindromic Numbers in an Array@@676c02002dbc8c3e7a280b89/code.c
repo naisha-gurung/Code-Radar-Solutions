@@ -9,9 +9,9 @@ int check(int n){
         n=n/10;
     
     printf("%d %d\n",rev,m);
-    if(rev==m){
-        return 1;
-    }
+    // if(rev==m){
+    //     return 1;
+    // }
     return 0;
 }
 int main() {
