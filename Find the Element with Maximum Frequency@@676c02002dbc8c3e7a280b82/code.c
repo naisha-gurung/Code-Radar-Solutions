@@ -23,7 +23,7 @@ int main() {
             ++count;
         }
         else{
-            if(max <count)
+            if(max <count && max!=count)
             {
                 max=count;
                 ans=arr[i-1];
