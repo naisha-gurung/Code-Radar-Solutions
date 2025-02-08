@@ -29,7 +29,6 @@ int main() {
             {
                 max=count;
                 ans=arr[i-1];
-                count=1;
             }
             count=1;
         }
