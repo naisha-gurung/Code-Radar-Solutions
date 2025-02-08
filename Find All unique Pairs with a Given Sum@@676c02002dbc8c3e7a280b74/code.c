@@ -13,7 +13,7 @@ int main() {
             if(arr[i]+arr[j]==m && ( a!=arr[i] && b!=arr[j])){
                 printf("%d %d\n",arr[i],arr[j]);
                 a=arr[i];
-                b=arr[i];
+                b=arr[j];
             }
 
         }
