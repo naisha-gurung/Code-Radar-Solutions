@@ -30,7 +30,6 @@ int main() {
                 max=count;
                 ans=arr[i-1];
                 count=1;
-                printf("%d %d \n",max ,ans);
             }
             count=1;
         }
