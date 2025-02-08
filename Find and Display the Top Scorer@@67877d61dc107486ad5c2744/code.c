@@ -2,11 +2,11 @@
 int main() {
     int n;
     scanf("%d",&n);
-    int a;
-    float c;
+    int a[n];
+    float c[n];
     char b[n][50];
     for(int i=0;i<n;i++){
-       scanf("%d %s %f",&a ,&b[i],&c );
+       scanf("%d %s %f",&a[i] ,&b[i],&c[i] );
     }
     int max=arr[0];
     int index=0;
@@ -16,6 +16,6 @@ int main() {
             inex=i;
         }
     }
-      printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f\n",a,b[index],c);
+      printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f\n",a[index],b[index],c[index]);
     return 0;
 }
