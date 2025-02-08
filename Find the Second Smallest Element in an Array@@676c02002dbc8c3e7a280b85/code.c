@@ -13,7 +13,6 @@ int main() {
     arr2[0]=arr[0];
     for(int i=1;i<n;i++){
         for(int j=0;j<k;j++){
-           // printf("%d %d",arr2[i],arr[j])
             if(arr2[j]==arr[i]){
                 c=false;
                 break;
@@ -25,9 +24,7 @@ int main() {
         }
         c=true;
     }
-    // for(int i=0;i<k;i++){
-    //     printf("%d %d",arr2[i],k);
-    // }
+  
     if(k==1){
         printf("%d",-1);
         return 0;
