@@ -23,8 +23,8 @@ int main() {
             sum=sum+arr[i];
         }
     }
-    for(int i=k-1;i>=0;i++){
-        // printf("%d ",arr2[i]);
+    for(int i=k-1;i>=0;i--){
+        printf("%d ",arr2[i]);
     }
     return 0;
 }
