@@ -25,7 +25,7 @@ int main() {
         printf("\n%d ",arr[i]);
     }
     for(int i=1;i<n;i++){
-    
+     printf("%d ",arr[i]-arr[i-1]);
         if((arr[i]-arr[i-1])<min){
             min=arr[i]-arr[i-1];
             a=arr[i-1];
