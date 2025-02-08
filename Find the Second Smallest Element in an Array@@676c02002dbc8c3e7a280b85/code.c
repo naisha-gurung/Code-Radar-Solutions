@@ -13,7 +13,8 @@ int main() {
     arr2[0]=arr[0];
     for(int i=1;i<n;i++){
         for(int j=0;j<k;j++){
-            if(arr2[i]==arr[j]){
+           // printf("%d %d",arr2[i],arr[j])
+            if(arr2[j]==arr[i]){
                 c=false;
                 break;
             }
