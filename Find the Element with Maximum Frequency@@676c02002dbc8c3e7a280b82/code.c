@@ -15,19 +15,19 @@ int main() {
             }
         }
     }
-    // int max=1;
-    // for(int i=1;i<n;i++){
-    //     int count=1;
-    //     if(arr[i-1]==arr[i]){
-    //         ++count;
-    //     }
-    //     else{
-    //         if(max <count)
-    //         {
-    //             max=count;
-    //         }
-    //     }
-    // }
-    // printf("%d",max);
+    int max=1;
+    for(int i=1;i<n;i++){
+        int count=1;
+        if(arr[i-1]==arr[i]){
+            ++count;
+        }
+        else{
+            if(max <count)
+            {
+                max=count;
+            }
+        }
+    }
+    printf("%d",max);
     return 0;
 }
