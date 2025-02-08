@@ -8,6 +8,5 @@ int main() {
         scanf("%d %s %f",&a ,&b,&c );
         printf("Roll Number: %d, Name: %s, Marks: %.2f",a,b,c);
     }
-    printf("%s", welcome());
     return 0;
 }
