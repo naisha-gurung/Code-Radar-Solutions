@@ -1,12 +1,12 @@
 #include <stdio.h>
-int check(int n,int arr[],int m){
-    for(int i=0;i<m;i++){
-        if(n<arr[i]){
-            return 0;
-        }
-    }
-    return 1;
-}
+// int check(int n,int arr[],int m){
+//     for(int i=0;i<m;i++){
+//         if(n<arr[i]){
+//             return 0;
+//         }
+//     }
+//     return 1;
+// }
 int main() {
     int n;
     scanf("%d",&n);
