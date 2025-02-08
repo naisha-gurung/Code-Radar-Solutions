@@ -2,14 +2,16 @@
 int main() {
     int n;
     scanf("%d",&n);
+    if(n==1){
+        printf("%d",-1);
+        return 0;
+    }
     int arr[n];
     int a,b;
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    //  for(int i=0;i<n;i++){
-    //     printf("%d ",arr[i]);
-    // }
+  
    
     for(int i=0;i<n-1;i++){
         for(int j=0;j<n-i-1;j++){
@@ -23,11 +25,8 @@ int main() {
     }
      int min=arr[1]-arr[0];
      a=arr[0];
-     b=arr[1];    // for(int i=0;i<n;i++){
-    //     printf("\n%d ",arr[i]);
-    // }
+     b=arr[1];    
     for(int i=1;i<n;i++){
-    // printf("%d %d %d\n",arr[i],arr[i-1],arr[i]-arr[i-1]);
         if((arr[i]-arr[i-1])<min){
             min=arr[i]-arr[i-1];
             a=arr[i-1];
