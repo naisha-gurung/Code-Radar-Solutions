@@ -30,11 +30,15 @@ int main() {
                 max=count;
                 ans=arr[i-1];
                 count=1;
-                printf("%d %d \n",max ,ans);
             }
             count=1;
         }
     }
+     if(max <count && max!=count)
+            {
+                max=count;
+                ans=arr[i-1];
+            }
     printf("%d",ans);
     return 0;
 }
