@@ -1,12 +1,12 @@
 #include <stdio.h>
-// int check(int n,int arr[],int m){
-//     for(int i=0;i<m;i++){
-//         if(n<arr[i]){
-//             return 0;
-//         }
-//     }
-//     return 1;
-// }
+int check(int n,int arr[],int m){
+    for(int i=0;i<m;i++){
+        if(n<arr[i]){
+            return 0;
+        }
+    }
+    return 1;
+}
 int main() {
     int n;
     scanf("%d",&n);
@@ -24,12 +24,12 @@ int main() {
             arr2[k]=arr[i];
             ++k;
         }
-        // else if (check(arr[i],sum,j)==1){
-        //     arr2[k]=arr[i];
-        //     ++k;
-        //     sum[j]=arr[i];
-        //     ++j;
-        // }
+        else if (check(arr[i],sum,j)==1){
+            arr2[k]=arr[i];
+            ++k;
+            sum[j]=arr[i];
+            ++j;
+        }
         else{
             sum[j]=arr[i];
             ++j;
