@@ -9,7 +9,7 @@ int main() {
        scanf("%d %s %f",&a ,&b[i],&c );
     }
     int max=arr[0];
-    index=0;
+    int index=0;
     for(int i=0;i<n;i++){
         if(max<arr[i]){
             max=arr[i];
