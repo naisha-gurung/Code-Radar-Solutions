@@ -19,14 +19,14 @@ int main() {
 
         }
     }
-    // for(int i=1;i<n;i++){
-    //     if(i!=j){
-    //     if((arr[i]-arr[i-1])<min){
-    //         min=arr[i]-arr[i-1];
-    //         a=arr[i];
-    //         b=arr[i-1];
-    //     }}
-    // }
-    // printf("%d %d",a,b);
+    for(int i=1;i<n;i++){
+    
+        if((arr[i]-arr[i-1])<min){
+            min=arr[i]-arr[i-1];
+            a=arr[i];
+            b=arr[i-1];
+        }
+    }
+    printf("%d %d",a,b);
     return 0;
 }
