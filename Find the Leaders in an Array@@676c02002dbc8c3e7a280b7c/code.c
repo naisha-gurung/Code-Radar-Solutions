@@ -19,7 +19,6 @@ int main() {
     int sum[0]=arr[n-1];
     int j=1;
     for(int i=n-1;i>=0;i--){
-        printf("%d %d %d\n",arr[i],sum,k);
         if(i==n-1){
             arr2[k]=arr[i];
             ++k;
