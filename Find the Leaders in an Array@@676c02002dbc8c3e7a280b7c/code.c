@@ -17,7 +17,7 @@ int main() {
     int arr2[n];
     int k=0;
     int sum[n];
-    int sum[0]=arr[n-1];
+     sum[0]=arr[n-1];
     int j=1;
     for(int i=n-1;i>=0;i--){
         if(i==n-1){
