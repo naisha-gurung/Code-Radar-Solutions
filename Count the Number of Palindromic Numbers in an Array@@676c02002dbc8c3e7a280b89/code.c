@@ -8,7 +8,7 @@ int check(int n){
         rev=rev*10+digit;
         n=n/10;
     }
-    printf("%d\n",rev);
+    printf("%d %d\n",rev,m);
     if(n=m){
         return 1;
     }
