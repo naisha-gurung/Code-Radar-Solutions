@@ -10,10 +10,10 @@ int main() {
     int k=0;
     int sum=arr[n-1];
     for(int i=n-1;i>=0;i--){
-        // if(i==n-1){
-        //     arr2[k]=arr[i];
-        //     ++k;
-        // }
+        if(i==n-1){
+            arr2[k]=arr[i];
+            ++k;
+        }
         // else if (arr[i]>=sum){
         //     arr2[k]=arr[i];
         //     ++k;
