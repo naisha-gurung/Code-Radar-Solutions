@@ -13,7 +13,7 @@ int main() {
     for(int i=0;i<n;i++){
         if(max<arr[i]){
             max=arr[i];
-            inex=i;
+            index=i;
         }
     }
       printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f\n",a[index],b[index],c[index]);
