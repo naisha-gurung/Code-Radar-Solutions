@@ -24,6 +24,7 @@ int main() {
             ++count;
         }
         else{
+            
             if(max <count && max!=count)
             {
                 max=count;
@@ -31,6 +32,7 @@ int main() {
                 count=1;
                 printf("%d %d \n",max ,ans);
             }
+            count=1;
         }
     }
     printf("%d",ans);
