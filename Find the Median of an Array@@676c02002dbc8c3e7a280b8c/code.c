@@ -7,9 +7,9 @@ int main() {
         scanf("%d",&arr[i]);
     }
     int ans;
-    // if(n%2==0){
-    //     ans=(arr[(n/2)+1]+arr[(n/2)+2])/2;
-    // }
+    if(n%2==0){
+        ans=(arr[(n/2)+1]+arr[(n/2)+2])/2;
+    }
     // else{
     //     ans(arr[((n+1)/2)+1]);
     // }
