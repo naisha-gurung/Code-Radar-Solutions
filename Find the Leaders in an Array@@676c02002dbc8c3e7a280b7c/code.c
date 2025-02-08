@@ -6,7 +6,7 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int arr2[n]l
+    int arr2[n];
     int k=0;
     int sum=arr[n-1];
     for(int i=n-1;i>=0;i--){
@@ -23,7 +23,7 @@ int main() {
             sum=sum+arr[i];
         }
     }
-    for(int i=k-1;i>0;i++){
+    for(int i=k-1;i>=0;i++){
         printf("%d ",arr2[i]);
     }
     return 0;
