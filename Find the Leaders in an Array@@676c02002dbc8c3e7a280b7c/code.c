@@ -19,9 +19,9 @@ int main() {
             ++k;
             sum=sum+arr[i];
         }
-        // else{
-        //     sum=sum+arr[i];
-        // }
+        else{
+            sum=sum+arr[i];
+        }
     }
     // for(int i=k-1;i>=0;i++){
     //     printf("%d ",arr2[i]);
