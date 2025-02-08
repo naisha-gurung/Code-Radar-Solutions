@@ -24,12 +24,12 @@ int main() {
             arr2[k]=arr[i];
             ++k;
         }
-        else if (check(arr[i],sum,j)==1){
-            arr2[k]=arr[i];
-            ++k;
-            sum[j]=arr[i];
-            ++j;
-        }
+        // else if (check(arr[i],sum,j)==1){
+        //     arr2[k]=arr[i];
+        //     ++k;
+        //     sum[j]=arr[i];
+        //     ++j;
+        // }
         else{
             sum[j]=arr[i];
             ++j;
