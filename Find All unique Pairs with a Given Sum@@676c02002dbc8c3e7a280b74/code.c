@@ -7,8 +7,8 @@ int main() {
         scanf("%d",&arr[i]);
     }
     int m;
-    int a=0;
-    int b=0;
+    int a=100000;
+    int b=100000;
     scanf("%d ",&m);
     for(int i=0;i<n-1;i++){
         for(int j=i+1;j<n;j++){
