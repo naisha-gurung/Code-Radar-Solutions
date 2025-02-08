@@ -36,7 +36,7 @@ int main() {
      if(max <count && max!=count)
             {
                 max=count;
-                ans=arr[i-1];
+                ans=arr[n-1];
             }
     printf("%d",ans);
     return 0;
