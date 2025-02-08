@@ -2,11 +2,11 @@
 int main() {
     int n;
     scanf("%d",&n);
-    int a;
-    float c;
+    int a[n];
+    float c[n];
     char b[n][50];
     for(int i=0;i<n;i++){
-       scanf("%d %s %f",&a ,&b[i],&c );
+       scanf("%d %s %f",&a[i] ,&b[i],&c[i] );
     
     }
     float sum=0.0;
