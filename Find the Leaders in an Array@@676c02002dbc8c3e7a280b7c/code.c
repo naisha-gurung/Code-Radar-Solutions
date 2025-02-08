@@ -10,7 +10,7 @@ int main() {
     int k=0;
     int sum=arr[n-1];
     for(int i=n-1;i>=0;i--){
-        printf("%d %d %d",arr[i],sum,k);
+        printf("%d %d %d\n",arr[i],sum,k);
         if(i==n-1){
             arr2[k]=arr[i];
             ++k;
