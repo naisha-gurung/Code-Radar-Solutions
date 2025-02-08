@@ -28,8 +28,8 @@ int main() {
     
         if((arr[i]-arr[i-1])<min){
             min=arr[i]-arr[i-1];
-            a=arr[i];
-            b=arr[i-1];
+            a=arr[i-1];
+            b=arr[i];
         }
     }
     printf("%d %d",a,b);
