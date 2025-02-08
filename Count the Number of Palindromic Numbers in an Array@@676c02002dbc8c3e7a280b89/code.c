@@ -7,9 +7,9 @@ int check(int n){
     //     rev=rev*10+digit;
     //     n=n/10;
     // }
-    // if(n=m){
-    //     return 1;
-    // }
+    if(n=m){
+        return 1;
+    }
     return 0;
 }
 int main() {
