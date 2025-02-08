@@ -31,6 +31,9 @@ int main() {
             }
         }
     }
-    printf("%d",arr2[n-1]);
+    for(int i=0;i<k;i++){
+        printf("%d",arr2[i]);
+    }
+    printf("%d",arr2[k-1]);
     return 0;
 }
