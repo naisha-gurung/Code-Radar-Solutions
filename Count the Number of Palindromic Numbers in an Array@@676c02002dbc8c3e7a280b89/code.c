@@ -7,11 +7,11 @@ int check(int n){
         digit=n%10;
         rev=rev*10+digit;
         n=n/10;
-    
+    }
     printf("%d %d\n",rev,m);
-    // if(rev==m){
-    //     return 1;
-    // }
+    if(rev==m){
+        return 1;
+    }
     return 0;
 }
 int main() {
