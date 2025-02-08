@@ -1,17 +1,17 @@
 #include <stdio.h>
-// int check(int n){
-//     int m=n;
-//     int rev=0;
-//     while(n>0){
-//         digit=n%10;
-//         rev=rev*10+digit;
-//         n=n/10;
-//     }
-//     if(n=m){
-//         return 1;
-//     }
-//     return 0;
-// }
+int check(int n){
+    int m=n;
+    int rev=0;
+    // while(n>0){
+    //     digit=n%10;
+    //     rev=rev*10+digit;
+    //     n=n/10;
+    // }
+    // if(n=m){
+    //     return 1;
+    // }
+    return 0;
+}
 int main() {
        int n;
     scanf("%d ",&n);
