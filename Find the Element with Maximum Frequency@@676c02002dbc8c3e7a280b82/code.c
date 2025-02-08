@@ -16,6 +16,7 @@ int main() {
         }
     }
     int max=1;
+    int ans=arr[0];
     for(int i=1;i<n;i++){
         int count=1;
         if(arr[i-1]==arr[i]){
@@ -25,9 +26,10 @@ int main() {
             if(max <count)
             {
                 max=count;
+                ans=arr[i-1];
             }
         }
     }
-    printf("%d",max);
+    printf("%d",ans);
     return 0;
 }
