@@ -25,7 +25,7 @@ int main() {
         c=true;
     }
     for(int i=0;i<k;i++){
-        printf("%d ",arr2[i]);
+        printf("%d ",arr2[i],k);
     }
 
 
