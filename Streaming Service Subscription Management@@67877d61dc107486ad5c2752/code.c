@@ -22,17 +22,17 @@ int main() {
             s1+=s[i].c;
             ++c1;
         }
-        else if(s[i].b="Standard"){
+        else if(s[i].b=="Standard"){
             s2+=s[i].c;
             ++c2;
 
          }
-        // else{
-        //     s3+=s[i].c;
-        //     ++c3;
-        // }
+        else{
+            s3+=s[i].c;
+            ++c3;
+        }
     }
-    // printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue; %.2f;Premium: %d Users, Revenue: %.2f",c1,s1,c2,s2,c3,s3);
+    printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue; %.2f;Premium: %d Users, Revenue: %.2f",c1,s1,c2,s2,c3,s3);
 
     return 0;
 }
