@@ -18,19 +18,19 @@ int main() {
     int c2=0;
     int c3=0;
     for(int i=0;i<n;i++){
-        if(s[i].b=="Basic"){
-            s1+=s[i].c;
-            ++c1;
-        }
-        else if(s[i].b="Standard"){
-            s2+=s[i].c;
-            ++c2;
+        // if(s[i].b=="Basic"){
+        //     s1+=s[i].c;
+        //     ++c1;
+        // }
+        // else if(s[i].b="Standard"){
+        //     s2+=s[i].c;
+        //     ++c2;
 
-        }
-        else{
-            s3+=s[i].c;
-            ++c3;
-        }
+        // }
+        // else{
+        //     s3+=s[i].c;
+        //     ++c3;
+        // }
     }
     // printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue; %.2f;Premium: %d Users, Revenue: %.2f",c1,s1,c2,s2,c3,s3);
 
