@@ -20,7 +20,7 @@ int main() {
              return 0;
         }
     }
-    printf("Student not found");
+    // printf("Student not found");
    
     return 0;
 }
