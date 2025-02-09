@@ -22,9 +22,9 @@ int main() {
             s1+=s[i].c;
             ++c1;
         }
-        // else if(s[i].b="Standard"){
-        //     s2+=s[i].c;
-        //     ++c2;
+        else if(s[i].b="Standard"){
+            s2+=s[i].c;
+            ++c2;
 
         // }
         // else{
