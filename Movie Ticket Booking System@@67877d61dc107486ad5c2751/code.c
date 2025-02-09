@@ -27,7 +27,7 @@ int main() {
             s3+=s[i].c;
         }
     }
-    printf(" Standard: %.2f, Premium: %.2f, VIP: %.2f",s1,s2,s3);
+    printf("Standard: %.2f, Premium: %.2f, VIP: %.2f",s1,s2,s3);
 
     return 0;
 }
