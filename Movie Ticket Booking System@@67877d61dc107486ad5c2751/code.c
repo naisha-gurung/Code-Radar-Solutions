@@ -16,10 +16,10 @@ int main() {
     float s2=0;
     float s3=0;
     for(int i=0;i<n;i++){
-        if(strcmp(s[i].b,"Basic")==0){
+        if(strcmp(s[i].b,"Standard")==0){
             s1+=s[i].c;
         }
-        else if(strcmp(s[i].b,"Standard")==0){
+        else if(strcmp(s[i].b,"Premium")==0){
             s2+=s[i].c;
 
          }
