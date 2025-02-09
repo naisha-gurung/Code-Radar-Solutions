@@ -13,7 +13,7 @@ int main() {
         scanf("%d %s %f",&s[i].a,&s[i].b,&s[i].c);
     }
     for(int i=0;i<n;i++){
-        if(s[i].c>50000.0){
+        if(s[i].c<50000.0){
             s[i].d=s[i].c/10;
         }
         else{
