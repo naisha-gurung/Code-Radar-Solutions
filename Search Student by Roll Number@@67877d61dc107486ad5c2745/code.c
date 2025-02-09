@@ -15,9 +15,9 @@ int main() {
     scanf("%d",&y);
     for(int i=0;i<n;i++){
         if(y==s[i].rn){
-            x=y;
+            x=i;
              printf("Roll Number: %d, Name: %s, Marks: %.2f",s[x].rn,s[x].name,s[x].m);
-            //  return 0;
+             return 0;
         }
     }
     printf("Student not found");
