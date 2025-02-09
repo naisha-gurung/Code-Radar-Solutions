@@ -3,7 +3,7 @@ struct st{
     int a;
     float c;
     char b[50];
-    int d;
+    char d;
 };
 int main() {
     int m;
