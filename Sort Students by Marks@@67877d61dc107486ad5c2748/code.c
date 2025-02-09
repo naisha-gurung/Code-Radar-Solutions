@@ -21,9 +21,9 @@ int main() {
             }
         }
     }
-     for(int i=0;i<n;i++){
-        printf("Roll Number: %d, Name: %s, Marks: %.2f\n",s[i].a,s[i].b,s[i].c);
-    }
+    //  for(int i=0;i<n;i++){
+    //     printf("Roll Number: %d, Name: %s, Marks: %.2f\n",s[i].a,s[i].b,s[i].c);
+    // }
 
     return 0;
 }
