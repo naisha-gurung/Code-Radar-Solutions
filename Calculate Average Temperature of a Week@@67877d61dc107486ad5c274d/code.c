@@ -11,6 +11,6 @@ int main() {
         sum+=s[i].b;
     }
     float ans=sum/7;
-    printf("Average Temperature: .2%",ans);
+    printf("Average Temperature: %.2f",ans);
     return 0;
 }
