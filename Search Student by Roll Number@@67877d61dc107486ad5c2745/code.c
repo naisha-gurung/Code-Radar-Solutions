@@ -13,7 +13,7 @@ int main() {
     }
     int x;
     scanf("%d",&x);
-    printf("Roll Number: %d, Name: %s, Marks: %.2f",s.rn[x],s.name[x],s.m[x]);
+    printf("Roll Number: %d, Name: %s, Marks: %.2f",s[x].rn,s[x].name,s[x].m);
 
     return 0;
 }
