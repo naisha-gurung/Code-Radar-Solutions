@@ -19,7 +19,7 @@ int main() {
         if(strcmp(s[i].b,"Car")==0){
             s1+=s[i].c;
         }
-        else if(strcmp(s[i].b,"Trucks")==0){
+        else if(strcmp(s[i].b,"Truck")==0){
             s2+=s[i].c;
 
          }
