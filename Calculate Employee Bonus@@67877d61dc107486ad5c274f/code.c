@@ -15,11 +15,9 @@ int main() {
     for(int i=0;i<n;i++){
         if(s[i].c>50000.0){
             s[i].d=s[i].c/10;
-            printf("%.2f %.2f\n",s[i].d,s[i].c/10);
         }
         else{
             s[i].d=s[i].c*(0.05);
-            printf("%.2f %.2f\n",s[i].d,s[i].c/2);
         }
     }
      for(int i=0;i<n;i++){
