@@ -10,7 +10,7 @@ int main() {
     struct student s[n];
     float sum=0;
     for(int i=0;i<n;i++){
-        scanf("%d %s %f",s[i].num,s[i].n,s[i].m);
+        scanf("%d %s %f",&s[i].num,&s[i].n,&s[i].m);
         sum+=s[i].m;
     }
     float ans=sum/n;
