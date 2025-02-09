@@ -18,11 +18,11 @@ int main() {
     int c2=0;
     int c3=0;
     for(int i=0;i<n;i++){
-        if(s[i].b=="Basic"){
+        if(strcmp(s[i].b,"Basic")==0){
             s1+=s[i].c;
             ++c1;
         }
-        else if(s[i].b=="Standard"){
+        else if(strcmp(s[i].b,"Standard")==0){
             s2+=s[i].c;
             ++c2;
 
