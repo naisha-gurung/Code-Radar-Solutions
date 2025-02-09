@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 struct st{
     char b[50];
     float c;
