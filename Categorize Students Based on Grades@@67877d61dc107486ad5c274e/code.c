@@ -3,7 +3,7 @@ struct st{
     int a;
     float c;
     char b[50];
-    char d;
+    int d;
 };
 int main() {
     int m;
@@ -13,7 +13,7 @@ int main() {
         scanf("%d %s %f",&s[i].a,&s[i].b,&s[i].c);
     }
 for(int i=0;i<m;i++){
-    int n=s[i].c;
+    float n=s[i].c;
      if (n>=90){
         s[i].d='A';
     }
