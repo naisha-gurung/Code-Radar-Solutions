@@ -11,8 +11,16 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d %s %f",&s[i].rn,&s[i].name,&s[i].m);
     }
-    int x;
-    scanf("%d",&x);
-    printf("Roll Number: %d, Name: %s, Marks: %.2f",s[x].rn,s[x].name,s[x].m);
+    int y,x;
+    scanf("%d",&y);
+    for(int i=0;i,n;i++){
+        if(y==s[i].rn){
+            x=y;
+             printf("Roll Number: %d, Name: %s, Marks: %.2f",s[x].rn,s[x].name,s[x].m);
+             return 0;
+        }
+    }
+    printf("Student not found");
+   
     return 0;
 }
