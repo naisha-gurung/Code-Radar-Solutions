@@ -14,16 +14,16 @@ int main() {
     }
 for(int i=0;i<m;i++){
     float n=s[i].c;
-     if (n>=90){
+     if (n>=90.0){
         s[i].d='A';
     }
-    else if(n>=80){
+    else if(n>=80.0){
        s[i].d='B';
     }
-    else if(n>=70){
+    else if(n>=70.0){
        s[i].d='C';
     }
-    else if(n>=60){
+    else if(n>=60.0){
         s[i].d='D';
     }
     else{
