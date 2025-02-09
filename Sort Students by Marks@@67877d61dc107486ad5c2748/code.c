@@ -12,18 +12,18 @@ int main() {
         scanf("%d %s %f",&s[i].a,&s[i].b,&s[i].c);
     }
     
-    // for(int i=0;i<n-1;i++){
-    //     for(int j=0;j<n-i-1;j++){
-    //         if (s[j].c>s[j+1].c){
-    //             int a=s[j];
-    //             s[j]=s[j+1];
-    //             s[j+1]=a;
-    //         }
-    //     }
-    // }
-    //  for(int i=0;i<n;i++){
-    //     printf("Roll Number: %d, Name: %s, Marks: %.2f\n",s[i].a,s[i].b,s[i].c);
-    // }
+    for(int i=0;i<n-1;i++){
+        for(int j=0;j<n-i-1;j++){
+            if (s[j].c>s[j+1].c){
+                struct student a=s[j];
+                s[j]=s[j+1];
+                s[j+1]=a;
+            }
+        }
+    }
+     for(int i=0;i<n;i++){
+        printf("Roll Number: %d, Name: %s, Marks: %.2f\n",s[i].a,s[i].b,s[i].c);
+    }
 
     return 0;
 }
