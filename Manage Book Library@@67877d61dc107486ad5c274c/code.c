@@ -23,7 +23,7 @@ int main() {
     }
     printf("Books above price %.2f:\n",x);
     for(int i=0;i<j;i++){
-        printf("Title: %s, Author: %s, Price: %.2f\n",s[i].a,s[i].b,s[i].c);
+        printf("Title: %s, Author: %s, Price: %.2f\n",s[price[i]].a,s[price[i]].b,s[price[i]].c);
     }
     return 0;
 }
