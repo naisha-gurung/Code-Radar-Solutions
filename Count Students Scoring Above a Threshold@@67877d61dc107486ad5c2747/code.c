@@ -9,7 +9,7 @@ int main() {
     scanf("%d",&n);
     struct st s[n];
     for(int i=0;i<n;i++){
-        scanf("%d %s %f",&s[i].a;&s[i].b;&s[i].c);
+        // scanf("%d %s %f",&s[i].a;&s[i].b;&s[i].c);
     }
     // int m;
     // scanf("%d",&m);
