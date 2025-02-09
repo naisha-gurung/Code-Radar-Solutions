@@ -18,10 +18,10 @@ int main() {
     int c2=0;
     int c3=0;
     for(int i=0;i<n;i++){
-        // if(s[i].b=="Basic"){
-        //     s1+=s[i].c;
-        //     ++c1;
-        // }
+        if(s[i].b=="Basic"){
+            s1+=s[i].c;
+            ++c1;
+        }
         // else if(s[i].b="Standard"){
         //     s2+=s[i].c;
         //     ++c2;
