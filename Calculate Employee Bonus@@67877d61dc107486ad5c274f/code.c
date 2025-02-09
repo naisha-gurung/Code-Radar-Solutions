@@ -18,7 +18,7 @@ int main() {
             printf("%.2f %.2f\n",s[i].d,s[i].c/10);
         }
         else{
-            s[i].d=s[i].c*(5/100);
+            s[i].d=s[i].c*(0.05);
             printf("%.2f %.2f\n",s[i].d,s[i].c/2);
         }
     }
