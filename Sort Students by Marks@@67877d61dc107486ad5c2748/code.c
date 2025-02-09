@@ -21,7 +21,7 @@ int main() {
             }
         }
     }
-     for(int i=0;i<n;i++){
+     for(int i=n-1;i>=0;i--){
         printf("Roll Number: %d, Name: %s, Marks: %.2f\n",s[i].a,s[i].b,s[i].c);
     }
 
