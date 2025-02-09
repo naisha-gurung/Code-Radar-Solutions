@@ -14,7 +14,7 @@ int main() {
     int price[n];
     int j=0;
     float x;
-    scanf("%f",x);
+    scanf("%f",&x);
     for(int i=0;i<n;i++){
         if(s[i].c>x){
             price[j]=i;
