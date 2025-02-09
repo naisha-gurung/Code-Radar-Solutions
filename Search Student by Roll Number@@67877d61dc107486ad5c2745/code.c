@@ -6,7 +6,7 @@
     };
 int main() {
     int n;
-    sacnf("%d",&n);
+    scanf("%d",&n);
     // struct student s[n];
     // for(int i=0;i<n;i++){
     //     scanf("%d %s %f",&s.rn[i],&s.name[i],&s.m[i]);
