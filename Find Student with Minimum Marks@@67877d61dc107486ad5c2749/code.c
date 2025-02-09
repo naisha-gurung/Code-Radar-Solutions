@@ -19,6 +19,6 @@ int main() {
             x=i;
         }
     }
-    printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f",s[x].a,s[i].b,s[i].c);
+    // printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f",s[x].a,s[i].b,s[i].c);
     return 0;
 }
