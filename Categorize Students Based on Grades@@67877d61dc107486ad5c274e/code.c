@@ -29,7 +29,7 @@ for(int i=0;i<m;i++){
     else{
       s[i].d='F';
     }}
-for(int x=0;x<m;x++){ printf("Roll Number: %d, Name: %s, Grade: %c",s[x].a,s[x].b,s[x].d);
+for(int x=0;x<m;x++){ printf("Roll Number: %d, Name: %s, Grade: %c\n",s[x].a,s[x].b,s[x].d);
     }
     return 0;
 }
