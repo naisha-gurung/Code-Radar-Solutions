@@ -3,7 +3,7 @@
 int main(){
     int a,b;
     scanf("%d",&a);
-    int c=0<<31;
+    int c=1<<31;
     if(a==0){
         printf("%d",32);
         return 0;
