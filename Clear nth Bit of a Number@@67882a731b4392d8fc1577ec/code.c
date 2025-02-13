@@ -10,12 +10,13 @@ int main(){
     int d,ans;
     if ( c & 1){
         d=0;
-        d<<b;
-        ans=(a | d)
-        printf("%d",ans);
+       
     }
     else{
         d=1;
+         d<<b;
+        ans=(a | d)
+        printf("%d",ans);
     }
 
     
