@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main(){
     int a,b;
-    scanf("%d",&a,&b);
+    scanf("%d %d",&a,&b);
     // 1 1 1 c=11
     // 1 0 1
     // 0 1 0
