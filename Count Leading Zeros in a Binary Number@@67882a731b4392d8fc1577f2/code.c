@@ -8,10 +8,10 @@ int main(){
         printf("%d",32);
         return 0;
     }
-    int count=32;
+    int count=0;
     while(!(c & a)){
         c=c>>1;
-        --count;
+        ++count;
     }
     printf("%d",count);
     return 0;
