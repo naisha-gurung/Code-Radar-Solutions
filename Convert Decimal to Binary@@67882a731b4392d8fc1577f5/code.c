@@ -4,7 +4,7 @@ int main(){
     scanf("%d %d",&a,&b);
     int c=a^b;
     a=b;
-    b=c^b;
+    b=c^a;
     printf("%d %d",a,b);
     return 0;
 
