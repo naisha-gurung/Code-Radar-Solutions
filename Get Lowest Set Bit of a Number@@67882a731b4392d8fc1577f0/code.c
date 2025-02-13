@@ -7,7 +7,7 @@ int c=0;
 int b=1;
 while( !(a & b)){
     ++c;
-    b<<c;
+    b=b<<c;
 
 }
 printf("%d",c);
