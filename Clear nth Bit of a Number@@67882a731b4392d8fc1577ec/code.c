@@ -6,7 +6,7 @@ int main(){
     int c=1<<b;
     int d=a^c;
     printf("%d",d);
-    
+    return 0;
 
     
 }
