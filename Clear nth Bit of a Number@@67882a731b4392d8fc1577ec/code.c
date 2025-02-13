@@ -15,7 +15,7 @@ int main(){
     else{
         d=1;
          d<<b;
-        ans=(a | d)
+        ans=(a | d);
         printf("%d",ans);
     }
 
