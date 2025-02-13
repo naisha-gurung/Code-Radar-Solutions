@@ -13,6 +13,6 @@ int main(){
         c=c>>1;
         --count;
     }
-    printf("%d",&count);
+    printf("%d",count);
     return 0;
 }
