@@ -14,7 +14,7 @@ int main(){
     }
     else{
         d=1;
-         d<<b;
+         d=d<<b;
         ans=(a | d);
         printf("%d",ans);
     }
