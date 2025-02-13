@@ -6,7 +6,7 @@ int main(){
     // a=b;
     // b=c^a;
     // printf("%d %d",a,b);
-    // return 0;
+    return 0;
 
     
 }
