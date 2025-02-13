@@ -12,5 +12,19 @@ int main(){
     printf("%d", ans);
 
     }
+    else{
+        int d = 1;
+    int e = d << b;  // Shift 1 to the b-th position
+    int ans = a ^ e; // Set the b-th bit of a
+    printf("%d", ans);
+
+    }
+    1 1=1
+    0 1=0
+    1 0= 0
+
+    1 0=1
+    0 0=0
+    1 1=0
     return 0;
 }
