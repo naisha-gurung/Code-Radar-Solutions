@@ -6,18 +6,14 @@ int main(){
     // 1 1 1 c=11
     // 1 0 1
     // 0 1 0
-    int c=a>>b;
-    int d,ans;
-    if ( c & 1){
-        d=0;
-       
-    }
-    else{
-        d=1;
-         int e=d<<b;
-        ans=(a | e);
-        printf("%d",ans);
-    }
+    // 1 0 0
+    // 1 0 1 0 
+    // 1 1 0 1
+    // 1 0 0 0 0 0 
+    int c=1<<b;
+    int d=a^c;
+    printf("%d",d);
+    
 
     
 }
