@@ -3,8 +3,7 @@
 int main(){
     int a;
     scanf("%d ",&a);
-    int arr[32];
-    int i=0;
+    int arr[32], i=0;
     // while(a>0){
     //     arr[i]=a%2;
     //     a=a/2;
