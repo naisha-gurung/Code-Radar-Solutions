@@ -1,7 +1,7 @@
 // Your code here...#include <stdio.h>
 int main(){
     int a;
-    scanf("%d %d",&a);
+    scanf("%d ",&a);
     int arr[32],i=0;
     // while(a>0){
     //     arr[i]=a%2;
