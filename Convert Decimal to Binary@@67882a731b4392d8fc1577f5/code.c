@@ -1,11 +1,17 @@
 // Your code here...#include <stdio.h>
 int main(){
-    int a,b;
-    scanf("%d %d",&a,&b);
-    int c=a^b;
-    a=b;
-    b=c^a;
-    printf("%d %d",a,b);
+    int a;
+    scanf("%d %d",&a);
+    int arr[32],i;
+    while(a>0){
+        arr[i]=a%2;
+        a=a/2;
+        ++i;
+    }
+    for(int j=0;j<i;j++){
+        printf("%d",arr[j]);
+    }
+    
     return 0;
 
     
