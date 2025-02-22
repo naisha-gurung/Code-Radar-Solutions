@@ -7,11 +7,11 @@ int main() {
     scanf("%s",&ch);
     int n=strlen(ch);
     for(int i=0;i<n;i++){
-       if(ch[i]==" "){
+       if(ch[i]==' '){
         ++count;
        }
     }
-    if(ch[n-1]!=" "){
+    if(ch[n-1]!=' '){
         ++count;
     }
     printf("%d",count);
