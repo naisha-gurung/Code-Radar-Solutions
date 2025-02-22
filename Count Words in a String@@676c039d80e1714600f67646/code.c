@@ -2,26 +2,17 @@
 #include <string.h>
 int main() {
     char ch[50];
-    int count=0;
+    int count=1;
     char nonwords[]=" ";
     scanf("%s",&ch);
     int n=strlen(ch);
     for(int i=0;i<n;i++){
-        while(i<n){
-            if(strchr(nonwords,ch[i]) != NULL){
-                break;
-            }
-            i++;
-
-        }
+       if(ch[i]==" "){
         ++count;
-        // while(i<n){
-        //     if(strchr(nonwords,ch[i]) == NULL){
-        //         break;
-        //     }
-        //     i++;
-
-        // }
+       }
+    }
+    if(ch[n-1]!=" "){
+        ++count;
     }
     printf("%d",count);
     return 0;
