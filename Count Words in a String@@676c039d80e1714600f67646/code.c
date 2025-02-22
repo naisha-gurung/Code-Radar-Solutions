@@ -14,7 +14,7 @@ int main() {
             i++;
 
         }
-        count++;
+        ++count;
         while(i<n){
             if(strchr(nonwords,ch[i]) == NULL){
                 break;
