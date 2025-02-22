@@ -3,7 +3,7 @@
 int main() {
     char ch[50];
     int count=0;
-    char nonwords[]=" .,\n\t;";
+    char nonwords[]=" ";
     scanf("%s",&ch);
     int n=strlen(ch);
     for(int i=0;i<n;i++){
