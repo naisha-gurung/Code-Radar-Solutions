@@ -15,13 +15,13 @@ int main() {
 
         }
         ++count;
-        while(i<n){
-            if(strchr(nonwords,ch[i]) == NULL){
-                break;
-            }
-            i++;
+        // while(i<n){
+        //     if(strchr(nonwords,ch[i]) == NULL){
+        //         break;
+        //     }
+        //     i++;
 
-        }
+        // }
     }
     printf("%d",count);
     return 0;
