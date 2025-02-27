@@ -3,7 +3,7 @@
 #include <string.h>
 int main(){
     char st[50];
-    scanf("%s",&st);
+    fgets(st,sizeof(st),stdin);
     int n=strcspn(st,"\0");
     printf("%d",n);
     return 0;
