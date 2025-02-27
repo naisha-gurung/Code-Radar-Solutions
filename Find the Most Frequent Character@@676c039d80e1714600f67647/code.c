@@ -20,7 +20,13 @@ int main(){
                 ans=s[i];
             }
             else if(max==count){
-                if(strcspn(temp,ans)>strcspn(temp,s[i])){
+                char t[2],y[2];
+                t[0]=ans;
+                t[1]='\0';
+                y[0]=s[i];
+                y[1]='\0';
+
+                if(strcspn(temp,t)>strcspn(temp,y)){
                     ans=s[i];
                 }
             }
