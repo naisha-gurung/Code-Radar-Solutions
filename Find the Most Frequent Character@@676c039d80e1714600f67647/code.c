@@ -14,7 +14,7 @@ int main(){
                     ++count;
                 }
             }
-            if(max<count){
+            if(max<=count){
                 max=count;
                 ans=s[i];
             }
