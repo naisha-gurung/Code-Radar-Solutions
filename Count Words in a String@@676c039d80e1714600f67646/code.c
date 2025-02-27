@@ -5,9 +5,10 @@ int main() {
    char s[50];
    fgets(s,sizeof(s),stdin);
    int j=0;
-   while(j<strlen(s)){
+   while(j < strlen(s)){
     if(s[j]!=' '){
         ++count;
+        ++j;
         while(s[j]!=' '| s[j]!="\0"){
             ++j;
 
