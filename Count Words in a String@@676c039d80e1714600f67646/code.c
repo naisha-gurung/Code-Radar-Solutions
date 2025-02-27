@@ -2,15 +2,21 @@
 #include <string.h>
 int main() {
    int count=0;
-   char s[100];
+   char s[50];
    fgets(s,sizeof(s),stdin);
-   for( int i=0;i<strlen(s);i++){
-    if (s[i]==' '){
+   int j=0;
+   while(j<strlen(s)){
+    if(s[j]!=' '){
         ++count;
+        while(s[j]!=' '| s[j]!="\0"){
+            ++j;
+
+        }
     }
-   }
-   if(s[strlen(s)-1]!=' '){
-    ++count;
+    else{
+        ++j;
+    }
+
    }
    printf("%d",count);
     return 0;
