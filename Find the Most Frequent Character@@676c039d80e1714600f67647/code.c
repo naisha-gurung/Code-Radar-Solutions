@@ -6,6 +6,7 @@ int main(){
     fgets(s,sizeof(s),stdin);
     int max=0;
     char ans;
+    char temp[26]="abcdefghijklmnopqrstuvwxyz";
     for(int i=0;i<strlen(s);i++){
         if (!(strchr(st,s[i]))){
             int count=0;
@@ -14,9 +15,14 @@ int main(){
                     ++count;
                 }
             }
-            if(max<=count){
+            if(max<count){
                 max=count;
                 ans=s[i];
+            }
+            else if(max==count){
+                if(strcspn(temp,ans)>strcspn(temp,s[i])){
+                    ans=s[i];
+                }
             }
             st[strlen(st)] = s[i]; 
             st[strlen(st) + 1] = '\0';
