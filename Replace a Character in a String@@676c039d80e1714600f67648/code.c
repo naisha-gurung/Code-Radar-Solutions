@@ -15,7 +15,7 @@ int main(){
             strcat(ans,temp);
         }
         else{
-            char temp2[2];
+            char temp[2];
             temp[0]=s[i];
             temp[1]='\0';
             strcat(ans,temp2);
