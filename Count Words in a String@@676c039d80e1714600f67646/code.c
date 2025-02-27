@@ -8,7 +8,6 @@ int main() {
     if (s[i]==' '){
         ++count;
     }
-    printf("%c",s[i]);
    }
    if(s[strlen(s)-1]!=' '){
     ++count;
