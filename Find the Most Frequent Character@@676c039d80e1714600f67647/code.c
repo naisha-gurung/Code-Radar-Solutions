@@ -18,7 +18,8 @@ int main(){
                 max=count;
                 ans=s[i];
             }
-            strcat(st,s[i]);
+            st[strlen(st)] = s[i]; 
+            st[strlen(st) + 1] = '\0';
         }
     }
     printf("%c",ans);
