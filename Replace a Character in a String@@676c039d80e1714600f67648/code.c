@@ -5,6 +5,7 @@ int main(){
     char s[50];
     fgets(s,sizeof(s),stdin);
     char a,b;
+    char ans[50];
     scanf("%c %c",&a,&b);
     for(int i=0;i<strlen(s);i++){
         if(s[i]==a){
