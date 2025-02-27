@@ -9,7 +9,7 @@ int main() {
     if(s[j]!=' '){
         ++count;
         ++j;
-        while(s[j]!=' '| s[j]!='\0'){
+        while(s[j]!=' '&& s[j]!='\0'){
             ++j;
 
         }
