@@ -4,7 +4,7 @@
 int main(){
     char st[100],s[100];
     gets(st);
-    scanf("\n%s",&s);
+    gets(s);
     strcat(st,s);
     printf("%s",st);
     return 0;
