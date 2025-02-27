@@ -4,7 +4,7 @@ int main() {
    int count=0;
    char s[100];
    fgets(s,strlen(s),stdin);
-   for( int i=0;i<strlen(s),i++){
+   for( int i=0;i<strlen(s);i++){
     if (s[i]==' '){
         ++count;
     }
@@ -13,7 +13,5 @@ int main() {
     ++count;
    }
    printf("%d",count);
-
-
     return 0;
 }
