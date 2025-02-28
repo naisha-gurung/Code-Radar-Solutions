@@ -17,7 +17,7 @@ int main(){
         else{
             if(max<count){
                 max=count;
-                word=temp;
+                strcpy(word, temp);
                 temp[0]='\0';
                 count=0;
             }
