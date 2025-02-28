@@ -7,7 +7,7 @@ int main(){
     fgets(st,sizeof(st),stdin);
     for(int i=0;i<strlen(st);i++){
         if (st[i]==' ' || i==strlen(st)-1){
-            if (i!=strelen(st)-1){
+            if (i!=strlen(st)-1){
                 x=i-1;
             }
             else{
