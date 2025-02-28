@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 int main(){
-    char s[100],temp[100];
+    char s[100],temp[100],word[100];
     fgets(s,sizeof(s),stdin);
     int count=0;
     int max=0;
