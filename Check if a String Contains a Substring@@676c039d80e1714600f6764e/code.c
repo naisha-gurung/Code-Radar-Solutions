@@ -16,6 +16,7 @@ int main(){
             int temp=j+strlen(word)-1;
             
             for(int i=0;i<strlen(word);i++){
+                print("\n %c %c",word[i],line[j]);
                 if(word[i]!=line[j]){
                     break;
                 }
