@@ -9,8 +9,9 @@ int main(){
         if (st[i]==' '){
             for(int j=i-1;j>=k;j--){
         printf("%c",st[j]);
-        k=i+1;
+        
     }
+    k=i+1;
         }
     }
     return 0;
