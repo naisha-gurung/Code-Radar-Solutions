@@ -4,6 +4,7 @@
 int main(){
     char st[50];
     int k=0;
+    int x;
     fgets(st,sizeof(st),stdin);
     for(int i=0;i<strlen(st);i++){
         if (st[i]==' ' || i==strlen(st)-1){
