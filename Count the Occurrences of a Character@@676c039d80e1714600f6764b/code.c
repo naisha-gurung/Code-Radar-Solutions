@@ -6,6 +6,7 @@ int main(){
     char word[50],a;
     scanf("%s",&word);
     scanf("%c",&a);
+    printf("%s %c",word,a);
     for(int i=0;i<strlen(word);i++){
         if(word[i]==a){
             ++count;
