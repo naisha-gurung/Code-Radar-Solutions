@@ -12,6 +12,6 @@ int main(){
         k=i+1;
     }
         }
-    })
+    }
     return 0;
 }
