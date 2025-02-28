@@ -6,7 +6,7 @@ int main(){
     char line[100],temp[100];
     fgets(line,sizeof(line),stdin);
     for(int i=0;i<strlen(line);i++){
-        if(line[i].isupper){
+        if(isupper(line[i])){
             char x[2];
             x[0]=toupper(line[i]);
             x[1]='\0';
