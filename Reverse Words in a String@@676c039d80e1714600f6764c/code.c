@@ -12,7 +12,7 @@ int main(){
                 x=i-1;
             }
             else{
-                x=strlen(st)-1
+                x=strlen(st)-1;
             }
             for(int j=x;j>=k;j--){
         printf("%c",st[j]);
