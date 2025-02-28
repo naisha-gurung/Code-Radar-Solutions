@@ -25,6 +25,6 @@ int main(){
     }
      if(max<count){
                 max=count;
-                word=temp;}
+               strcpy(word, temp);}
                 printf("%s",word);
 }
