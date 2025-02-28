@@ -8,28 +8,27 @@ int main(){
     scanf("%s",&word);
     int k=0;
     int j=0;
-    while (j<strlen(line)){
-        printf("\n%d %c ",j,line[j]);
+    for (int j=0;j<strlen(line);j++){
+       // printf("\n%d %c ",j,line[j]);
         if(word[k]==line[j])
         {
-
+            int k=j;
             int temp=j+strlen(word)-1;
-            
             for(int i=0;i<strlen(word);i++){
-                printf("\n %c %c",word[i],line[j]);
-                if(word[i]!=line[j]){
+                printf("\n %c %c",word[i],line[k]);
+                if(word[i]!=line[k]){
                     break;
                 }
-                ++j;
+                ++k;
             }
-            printf("\n%d %d",temp,j-1);
-            if(temp==j-1){
+            //printf("\n%d %d",temp,j-1);
+            if(temp==k-1){
                 printf("Yes");
                 return 0;
             }
 
         }
-        ++j;
+        
     }
     printf("No");
     return 0;
