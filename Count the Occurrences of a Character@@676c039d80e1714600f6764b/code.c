@@ -3,9 +3,8 @@
 #include <string.h>
 int main(){
     int count=0;
-    char word[50];
-    char a;
-    scanf("%s",&word);
+    char word[50],a;
+    scanf("%s\n",&word);
     scanf("%c",&a);
     printf("%s %c",word,a);
     for(int i=0;i<strlen(word);i++){
