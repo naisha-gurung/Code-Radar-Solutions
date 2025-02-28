@@ -3,7 +3,7 @@
 #include <string.h>
 int main(){
     char st[50];
-    fgets(s,sizeof(s),stdin);
+    fgets(st,sizeof(st),stdin);
     for(int i=strlen(st)-1;i>=0;i--){
         printf("%c",st[i]);
     }
