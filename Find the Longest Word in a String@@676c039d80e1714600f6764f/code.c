@@ -18,7 +18,7 @@ int main(){
             if(max<count){
                 max=count;
                 word=temp;
-                temp="";
+                temp[0]='\0';
                 count=0;
             }
         }
