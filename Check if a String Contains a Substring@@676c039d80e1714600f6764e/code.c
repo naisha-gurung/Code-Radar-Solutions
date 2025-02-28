@@ -15,7 +15,7 @@ int main(){
             int k=j;
             int temp=j+strlen(word)-1;
             for(int i=0;i<strlen(word);i++){
-                printf("\n %c %c",word[i],line[k]);
+               // printf("\n %c %c",word[i],line[k]);
                 if(word[i]!=line[k]){
                     break;
                 }
