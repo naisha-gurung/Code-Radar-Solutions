@@ -6,7 +6,7 @@ int main(){
     fgets(s,sizeof(s),stdin);
     int count=0;
     int max=0;
-    for(int i=0;i<strlne(s);i++){
+    for(int i=0;i<strlen(s);i++){
         if(s[i]!=' '){
             ++count;
             char x[2];
