@@ -9,6 +9,7 @@ int main(){
     int k=0;
     int j=0;
     while (j<strlen(line)){
+        printf("\n%d %c ",j,line[j]);
         if(word[k]==line[j])
         {
 
@@ -20,6 +21,7 @@ int main(){
                 }
                 ++j;
             }
+            printf("\n%d %d",temp,j-1);
             if(temp==j-1){
                 printf("Yes");
                 return 0;
