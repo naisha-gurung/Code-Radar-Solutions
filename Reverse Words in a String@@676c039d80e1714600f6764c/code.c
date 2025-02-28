@@ -7,7 +7,13 @@ int main(){
     fgets(st,sizeof(st),stdin);
     for(int i=0;i<strlen(st);i++){
         if (st[i]==' ' || i==strlen(st)-1){
-            for(int j=i-1 if i!=strelen(st)-1 else strlen(st)-1;j>=k;j--){
+            if (i!=strelen(st)-1){
+                x=i-1;
+            }
+            else{
+                x=strlen(st)-1
+            }
+            for(int j=x;j>=k;j--){
         printf("%c",st[j]);
         
     }
