@@ -5,7 +5,7 @@ int main(){
     char s[100];
     fgets(s,sizeof(s),stdin);
     for(int i=0;i<strlen(s);i++){
-        id(s[i]!=' '){
+        if(s[i]!=' '){
             printf("%c",s[i]);
         }
     }
