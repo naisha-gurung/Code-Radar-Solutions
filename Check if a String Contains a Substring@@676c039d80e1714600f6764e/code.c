@@ -11,7 +11,7 @@ int main(){
     while (j<strlen(line)){
         if(word[k]==line[j])
         {
-            int temp=i+strlen(word)-1;
+            int temp=j+strlen(word)-1;
             for(int i=1;i<strlen(word);i++){
                 if(word[i]!=line[j]){
                     break;
