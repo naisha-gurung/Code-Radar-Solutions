@@ -15,5 +15,6 @@ int main(){
             strcat(ans,temp);
         }
     }
+    printf("%s",ans);
     return 0;
 }
