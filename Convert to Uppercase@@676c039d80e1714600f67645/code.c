@@ -9,7 +9,8 @@ int main(){
     for(int i=0;i<strlen(word);i++){
         if (((int)word[i])<123 && ((int)word[i])>97){
             char temp[2];
-            temp[0]=(char)((int)word[i])+32;
+            int b=(int)word[i]+32;
+            temp[0]=(char)b;
             temp[1]='\0';
             strcat(ans,temp);
         }
