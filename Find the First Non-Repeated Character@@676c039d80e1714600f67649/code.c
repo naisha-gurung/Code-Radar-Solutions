@@ -7,7 +7,7 @@ int main(){
     scanf("%s",&word);
     bool cond=true;
     for(int i=0;i<strlen(word)-1;i++){
-        if (strchr(temp,word[i])){
+        if (!(strchr(temp,word[i]))){
         for(int j=0;j<strlen(word);j++){
             if(word[i]==word[j]){
                 cond=false;
