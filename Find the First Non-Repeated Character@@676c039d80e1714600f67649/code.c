@@ -8,7 +8,7 @@ int main(){
     bool cond=true;
     for(int i=0;i<strlen(word)-1;i++){
         if (!(strchr(temp,word[i]))){
-        for(int j=0;j<strlen(word);j++){
+        for(int j=i+1;j<strlen(word);j++){
             if(word[i]==word[j]){
                 cond=false;
                 char x[2];
