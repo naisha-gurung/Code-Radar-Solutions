@@ -24,6 +24,12 @@ int main(){
         }}
 
     }
+    if (!(strchr(temp,word[strlen(word)-1]))){
+
+printf("%c",word[i]);
+            return 0;
+
+    }
     if (strchr(temp,word[strlen(word)-1])){
         printf("-");
         return 0;
