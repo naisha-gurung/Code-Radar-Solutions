@@ -8,7 +8,7 @@ int main(){
     int k=0;
     fgets(s,sizeof(s),stdin);
     fgets(st,sizeof(st),stdin);
-    if(strlen(s)!=strlen(s2)){
+    if(strlen(s)!=strlen(st)){
         printf("No");
         return 0;
     }
@@ -27,18 +27,18 @@ int main(){
             st[strlen(st) + 1] = '\0';
         }
     }
-    for(int i=0;i<strlen(s2);i++){
-        if (!(strchr(st,s2[i]))){
+    for(int i=0;i<strlen(st);i++){
+        if (!(strchr(st,st[i]))){
             int count=0;
-            for( int j=i+1;j<strlen(s2);j++){
-                if(s2[j]==s2[i]){
+            for( int j=i+1;j<strlen(st);j++){
+                if(st[j]==st[i]){
                     ++count;
                 }
             }
-            ans2[k][0]=s2[i];
+            ans2[k][0]=st[i];
             ans2[k][1]=count;
             ++k;
-            st[strlen(st)] = s2[i]; 
+            st[strlen(st)] = st[i]; 
             st[strlen(st) + 1] = '\0';
         }
     }
