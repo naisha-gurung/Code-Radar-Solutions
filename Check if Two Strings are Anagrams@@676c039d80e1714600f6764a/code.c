@@ -3,7 +3,7 @@
 #include <string.h>
 int main(){
     char s[50],st[50];
-    char ans1[50][2];
+    char ans[50][2];
     char ans2[50][2];
     int k=0;
     fgets(s,sizeof(s),stdin);
