@@ -7,7 +7,7 @@ int main(){
     char ans2[50][2];
     int k=0;
     fgets(s,sizeof(s),stdin);
-    fgets(s2,sizeof(st),stdin);
+    fgets(st,sizeof(st),stdin);
     if(strlen(s)!=strlen(s2)){
         printf("No");
         return 0;
