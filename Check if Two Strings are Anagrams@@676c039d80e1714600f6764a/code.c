@@ -46,6 +46,8 @@ int main(){
     int cols = sizeof(ans[0]) / sizeof(ans[0][0]);
     for(int i=0;i<rows;i++){
         for(int j=0;j<rows;j++){
+            printf("%s %s",ans[i][0],ans2[j][0] );
+            printf("%s %s",ans[i][1],ans2[j][1]);
             if(ans[i][0]==ans2[j][0]){
                 if (ans[i][1]!=ans2[j][1]){
                     printf("No");
