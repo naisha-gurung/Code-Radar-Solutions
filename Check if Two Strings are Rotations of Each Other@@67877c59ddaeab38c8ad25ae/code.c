@@ -11,10 +11,12 @@ int main(){
             int x=i;
             int count=0;
             for(int j=1;j<strlen(s1);j++){
+                
                 ++x;
                 if(x>=strlen(s1)){
                     x=0;
                 }
+                printf("%c %c",s1[x],s2[j]);
                 if(s1[x]!=s2[j]){
                     break;
                 }
