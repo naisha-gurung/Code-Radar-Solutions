@@ -22,6 +22,7 @@ int main(){
                     ++count;
                 }
             }
+            printf("%d",count);
             if(count==strlen(s2)-1){
                 printf("Yes");
             }
