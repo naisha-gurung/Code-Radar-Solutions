@@ -16,7 +16,7 @@ int main(){
                 if(x>=strlen(s1)){
                     x=0;
                 }
-                printf("\n%c %c",s1[x],s2[j]);
+                printf("%c %c\n",s1[x],s2[j]);
                 if(s1[x]!=s2[j]){
                     break;
                 }
@@ -24,7 +24,7 @@ int main(){
                     ++count;
                 }
             }
-            printf("\n%d",count);
+            printf("%d",count);
             if(count==strlen(s2)-1){
                 printf("Yes");
             }
