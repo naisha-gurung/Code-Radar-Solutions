@@ -4,7 +4,7 @@
 int main(){
     char s[100];
     char s2[100];
-    fgets(s,sizeof(s),stdin)l
+    fgets(s,sizeof(s),stdin);
     for(int i=0;i<strlen(s);i++){
         if(s[i]!=' '){
             char temp[2];
