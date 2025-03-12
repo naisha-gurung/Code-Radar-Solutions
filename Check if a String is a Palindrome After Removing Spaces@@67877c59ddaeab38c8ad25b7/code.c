@@ -13,6 +13,7 @@ int main(){
             strcat(s2,temp);
         }   
     }
+    printf("%s",s2);
     for(int i=0;i<strlen(s2);i++){
         if(s2[i]!=s2[strlen(s2)-i-1]){
             printf("No");
