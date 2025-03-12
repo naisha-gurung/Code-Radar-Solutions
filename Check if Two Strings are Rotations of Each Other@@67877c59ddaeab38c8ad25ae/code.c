@@ -27,5 +27,5 @@ int main(){
             }
         }
     }
-    printf("No;")
+    printf("No");
 }
