@@ -7,7 +7,7 @@ int main(){
     scanf("%s",&s1);
     scanf("%s",&s2);
     for(int i=0;i<strlen(s2);i++){
-        if (s1[0]==s2[i]){
+        if (s2[0]==s1[i]){
             int x=i;
             int count=0;
             for(int j=1;j<strlen(s1);j++){
