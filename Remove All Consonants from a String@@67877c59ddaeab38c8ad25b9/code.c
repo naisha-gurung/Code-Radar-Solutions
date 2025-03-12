@@ -9,4 +9,5 @@ int main(){
             printf(line[i]);
         }
     }
+    return 0;
 }
