@@ -11,7 +11,9 @@ int main(){
     int min=strlen(line);
     int count=0;
     for(int i=0;i<strlen(line);i++){
+          printf("temp: %s ;ans: %s ;line[i]: %c\ncount=%d ;min=%d",temp,ans,line[i],count,min);
         if(line[i]==' ' && count !=0){
+            
             if(min>count){
                 min=count;
                 temp[count]='\0';
