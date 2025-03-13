@@ -15,7 +15,9 @@ int main(){
             if(min>count){
                 min=count;
                 temp[count]='\0';
-                ans=temp;
+                for(int j=0;j<strlen(temp);j++){
+                    ans=temp[j];
+                }
             }
             count=0;
         }
