@@ -9,7 +9,9 @@ int main(){
     fgets(s,sizeof(s),stdin);
     fgets(st,sizeof(st),stdin);
    printf("%d %d",strlen(s),strlen(st));
-    s[strcspn(s, "\n")] = '\0';
+   size_t len_s = strcspn(s, "\n");
+    if (s[len_s] == '\n') s[len_s] = '\0';
+  //  s[strcspn(s, "\n")] = '\0';
     //st[strcspn(st, "\n")] = '\0';
     if(strlen(s)!=strlen(st)){
         printf(":No");
