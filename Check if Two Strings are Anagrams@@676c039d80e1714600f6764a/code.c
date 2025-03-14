@@ -8,9 +8,9 @@ int main(){
     int k=0;
     fgets(s,sizeof(s),stdin);
     fgets(st,sizeof(st),stdin);
-   printf("%d %d",strlen(s),strlen(st));
+   printf("%d %d",strlen(s)-1,strlen(st));
    
-    if(strlen(s)-1!=strlen(st)){
+    if((strlen(s)-1)!=strlen(st)){
         printf(":No");
         return 0;
     }
