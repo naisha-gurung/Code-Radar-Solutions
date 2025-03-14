@@ -8,16 +8,16 @@ int main(){
     int k=0;
     fgets(s,sizeof(s),stdin);
     fgets(st,sizeof(st),stdin);
-   printf("%d %d",strlen(s)-1,strlen(st));
+   printf("%d %d",strlen(s),strlen(st));
    
-    if((strlen(s)-1)!=strlen(st)){
+    if(strlen(s)!=strlen(st)){
         printf(":No");
         return 0;
     }
     char temp[100];
     temp[0]='\0';
 
-     for(int i=0;i<strlen(s)-1;i++){
+     for(int i=0;i<strlen(s);i++){
         if (!(strchr(temp,s[i]))){
             int count=0;
             for( int j=i+1;j<strlen(s);j++){
