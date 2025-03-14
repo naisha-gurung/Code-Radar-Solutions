@@ -59,12 +59,12 @@ int main(){
         for(int j=0;j<rows;j++){
     //         printf("%s %s",ans[i][0],ans2[j][0] );
     //         printf("%s %s",ans[i][1],ans2[j][1]);
-    //         if(ans[i][0]==ans2[j][0]){
-    //             if (ans[i][1]!=ans2[j][1]){
-    //                 printf("No");
-    //                 return 0;
-    //             }
-    //         }
+            if(ans[i][0]==ans2[j][0]){
+                if (ans[i][1]!=ans2[j][1]){
+                    printf("No");
+                    return 0;
+                }
+            }
         }
     }
         printf("Yes");
