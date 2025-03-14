@@ -54,7 +54,7 @@ int main(){
             temp2[strlen(temp2) + 1] = '\0';
         }
     }
-    // int rows = sizeof(ans) / sizeof(ans[0]);      
+    int rows = sizeof(ans) / sizeof(ans[0]);      
     // for(int i=0;i<rows;i++){
     //     for(int j=0;j<rows;j++){
     //         printf("%s %s",ans[i][0],ans2[j][0] );
