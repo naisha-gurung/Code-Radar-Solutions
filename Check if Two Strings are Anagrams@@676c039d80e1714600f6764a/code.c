@@ -35,9 +35,9 @@ int main(){
             temp[strlen(temp) + 1] = '\0';
         }
     }
-    // char temp2[100];
-    // temp2[0]='\0';
-    // k=0;
+    char temp2[100];
+    temp2[0]='\0';
+    k=0;
 
     // for(int i=0;i<strlen(st);i++){
     //     if (!(strchr(temp2,st[i]))){
