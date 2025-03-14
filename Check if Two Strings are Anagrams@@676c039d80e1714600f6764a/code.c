@@ -39,21 +39,21 @@ int main(){
     temp2[0]='\0';
     k=0;
 
-    // for(int i=0;i<strlen(st);i++){
-    //     if (!(strchr(temp2,st[i]))){
-    //         int count=0;
-    //         for( int j=i+1;j<strlen(st);j++){
-    //             if(st[j]==st[i]){
-    //                 ++count;
-    //             }
-    //         }
-    //         ans2[k][0]=st[i];
-    //         ans2[k][1]=count;
-    //         ++k;
-    //         temp2[strlen(temp2)] = st[i]; 
-    //         temp2[strlen(temp2) + 1] = '\0';
-    //     }
-    // }
+    for(int i=0;i<strlen(st);i++){
+        if (!(strchr(temp2,st[i]))){
+            int count=0;
+            for( int j=i+1;j<strlen(st);j++){
+                if(st[j]==st[i]){
+                    ++count;
+                }
+            }
+            ans2[k][0]=st[i];
+            ans2[k][1]=count;
+            ++k;
+            temp2[strlen(temp2)] = st[i]; 
+            temp2[strlen(temp2) + 1] = '\0';
+        }
+    }
     // int rows = sizeof(ans) / sizeof(ans[0]);      
     // for(int i=0;i<rows;i++){
     //     for(int j=0;j<rows;j++){
