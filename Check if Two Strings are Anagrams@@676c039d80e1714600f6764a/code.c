@@ -31,7 +31,7 @@ int main(){
         }
     }
     char temp2[100];
-    char temp2[0]='\0';
+    temp2[0]='\0';
     k=0;
 
     for(int i=0;i<strlen(st);i++){
