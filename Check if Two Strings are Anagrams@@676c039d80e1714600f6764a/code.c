@@ -17,8 +17,8 @@ int main(){
         printf(":No");
         return 0;
     }
-    // char temp[100];
-    // temp[0]='\0';
+    char temp[100];
+    temp[0]='\0';
 
     //  for(int i=0;i<strlen(s);i++){
     //     if (!(strchr(temp,s[i]))){
