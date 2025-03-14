@@ -12,8 +12,11 @@ int main(){
         printf("No");
         return 0;
     }
+    char temp[100];
+    temp[0]='\0';
+
      for(int i=0;i<strlen(s);i++){
-        if (!(strchr(st,s[i]))){
+        if (!(strchr(temp,s[i]))){
             int count=0;
             for( int j=i+1;j<strlen(s);j++){
                 if(s[j]==s[i]){
@@ -23,12 +26,16 @@ int main(){
             ans[k][0]=s[i];
             ans[k][1]=count;
             ++k;
-            st[strlen(st)] = s[i]; 
-            st[strlen(st) + 1] = '\0';
+            temp[strlen(temp)] = s[i]; 
+            temp[strlen(temp) + 1] = '\0';
         }
     }
+    char temp2[100];
+    char[0]='\0';
+    k=0;
+
     for(int i=0;i<strlen(st);i++){
-        if (!(strchr(st,st[i]))){
+        if (!(strchr(temp2,st[i]))){
             int count=0;
             for( int j=i+1;j<strlen(st);j++){
                 if(st[j]==st[i]){
@@ -38,12 +45,11 @@ int main(){
             ans2[k][0]=st[i];
             ans2[k][1]=count;
             ++k;
-            st[strlen(st)] = st[i]; 
-            st[strlen(st) + 1] = '\0';
+            temp2[strlen(temp2)] = st[i]; 
+            temp2[strlen(temp2) + 1] = '\0';
         }
     }
-    int rows = sizeof(ans) / sizeof(ans[0]);       
-    int cols = sizeof(ans[0]) / sizeof(ans[0][0]);
+    int rows = sizeof(ans) / sizeof(ans[0]);      
     for(int i=0;i<rows;i++){
         for(int j=0;j<rows;j++){
             printf("%s %s",ans[i][0],ans2[j][0] );
