@@ -9,7 +9,7 @@ int main(){
     fgets(s,sizeof(s),stdin);
     fgets(st,sizeof(st),stdin);
     if(strlen(s)!=strlen(st)){
-        printf("No");
+        printf(":No");
         return 0;
     }
     char temp[100];
