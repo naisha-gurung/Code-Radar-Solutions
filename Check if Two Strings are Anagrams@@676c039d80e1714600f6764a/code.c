@@ -8,7 +8,7 @@ int main(){
     int k=0;
     fgets(s,sizeof(s),stdin);
     fgets(st,sizeof(st),stdin);
-   // printf("%d %d",strlen(s),strlen(st));
+   printf("%d %d",strlen(s),strlen(st));
     s[strcspn(s, "\n")] = '\0';
     st[strcspn(st, "\n")] = '\0';
     if(strlen(s)!=strlen(st)){
