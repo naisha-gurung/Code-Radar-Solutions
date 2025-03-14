@@ -6,8 +6,7 @@ int main(){
     char ans[50][2];
     char ans2[50][2];
     int k=0;
-    fgets(s,sizeof(s),stdin);
-    fgets(st,sizeof(st),stdin);
+    scanf("%s\n%s",&s,&st);
     printf("%d %d",strlen(s),strlen(st));
     if(strlen(s)!=strlen(st)){
         printf(":No");
