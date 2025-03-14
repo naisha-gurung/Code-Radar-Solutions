@@ -56,7 +56,7 @@ int main(){
     }
     int rows = sizeof(ans) / sizeof(ans[0]);      
     for(int i=0;i<rows;i++){
-    //     for(int j=0;j<rows;j++){
+        for(int j=0;j<rows;j++){
     //         printf("%s %s",ans[i][0],ans2[j][0] );
     //         printf("%s %s",ans[i][1],ans2[j][1]);
     //         if(ans[i][0]==ans2[j][0]){
@@ -65,7 +65,7 @@ int main(){
     //                 return 0;
     //             }
     //         }
-    //     }
+        }
     }
         printf("Yes");
     
