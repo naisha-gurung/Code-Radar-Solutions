@@ -12,7 +12,6 @@ int main(){
    
     s[strcspn(s, "\n")] = '\0';
     st[strcspn(st, "\n")] = '\0';
-     printf("%d %d",strlen(s),strlen(st));
     if(strlen(s)!=strlen(st)){
         printf(":No");
         return 0;
@@ -57,8 +56,6 @@ int main(){
     int rows = sizeof(ans) / sizeof(ans[0]);      
     for(int i=0;i<rows;i++){
         for(int j=0;j<rows;j++){
-    //         printf("%s %s",ans[i][0],ans2[j][0] );
-            printf("%c %d",ans[i][1],ans2[j][1]);
             if(ans[i][0]==ans2[j][0]){
                 if (ans[i][1]!=ans2[j][1]){
                     printf("No");
