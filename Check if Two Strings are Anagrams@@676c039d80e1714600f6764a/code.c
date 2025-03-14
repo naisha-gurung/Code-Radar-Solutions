@@ -20,21 +20,21 @@ int main(){
     char temp[100];
     temp[0]='\0';
 
-    //  for(int i=0;i<strlen(s);i++){
-    //     if (!(strchr(temp,s[i]))){
-    //         int count=0;
-    //         for( int j=i+1;j<strlen(s);j++){
-    //             if(s[j]==s[i]){
-    //                 ++count;
-    //             }
-    //         }
-    //         ans[k][0]=s[i];
-    //         ans[k][1]=count;
-    //         ++k;
-    //         temp[strlen(temp)] = s[i]; 
-    //         temp[strlen(temp) + 1] = '\0';
-    //     }
-    // }
+     for(int i=0;i<strlen(s);i++){
+        if (!(strchr(temp,s[i]))){
+            int count=0;
+            for( int j=i+1;j<strlen(s);j++){
+                if(s[j]==s[i]){
+                    ++count;
+                }
+            }
+            ans[k][0]=s[i];
+            ans[k][1]=count;
+            ++k;
+            temp[strlen(temp)] = s[i]; 
+            temp[strlen(temp) + 1] = '\0';
+        }
+    }
     // char temp2[100];
     // temp2[0]='\0';
     // k=0;
