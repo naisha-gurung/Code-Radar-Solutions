@@ -1,33 +1,25 @@
-#include <stdio.h>
-int main() {
-    int n;
+#include<stdio.h>
+int main()
+{
+    int i,j,n;
     scanf("%d",&n);
-    int x=n;
-    int y=1;
-    for (int i=0;i<n;i++){
-        for(int j =0;j<x;j++){
-            printf(" ");
+    for(i=0;i<n;i++){
+        for(j=0;j<n-i-1;j++){printf(" ");}
+        
+        for(j=0;j<=i;j++){printf("*");}
+        for(j=i;j>0;j--){printf("*");}
+        printf("\n");
+
+    }
+      for (i = n - 2; i >= 0; i--) {
+        for (j = 0; j < n - i - 1; j++) {
+            printf(" ");  // Print spaces
         }
-        for(int k=0;k<y;k++){
-            printf("*");
+        for (j = 0; j < (2 * i + 1); j++) {
+            printf("*");  // Print stars
         }
         printf("\n");
-        y+=2;
-        x-=1;
-    }
-    n-=1;
-    int a=2;
-    int b=y-4;
-    for(int i=0;i<n;i++){
-        for(int j=0;j<a;j++){
-            printf(" ");
-        }
-        for(int k=0;k<b;k++){
-            printf("*");
-        }
-        printf("\n");
-        a+=1;
-        b-=2;
-    }
+                  }
+
     return 0;
 }
