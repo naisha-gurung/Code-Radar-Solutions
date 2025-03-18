@@ -12,6 +12,13 @@ int findUnsortedSubarray(int arr[],int n){
         }
         arr[prev+1]=curr;
     }
+    for(int i=0;i<n;i++){
+        printf("%d",arr2[i]);
+    }
+    printf("\n");
+    for(int i=0;i<n;i++){
+        printf("%d",arr[i]);
+    }
     int start=-1,end=-1;
     for(int i=0;i<n;i++){
         if(arr[i]!=arr2[i]){
