@@ -1,14 +1,8 @@
 // Your code here...
-#include <string.h>
 int findUnsortedSubarray(int arr[],int n){
     int curr, prev, arr2[100];
-    memcpy(arr2,arr,n);
      for(int i=0;i<n;i++){
-        printf("%d",arr2[i]);
-    }
-    printf("\n");
-    for(int i=0;i<n;i++){
-        printf("%d",arr[i]);
+        arr2[i]=arr[i];
     }
     printf("\n:");
     for(int i=1;i<n;i++){
