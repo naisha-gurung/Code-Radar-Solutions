@@ -36,6 +36,7 @@ int findUnsortedSubarray(int arr[],int n){
             break;
         }
     }
+    printf("\n%d",end);
     printf("\n:%d %d",start,end);
     if(start==-1 && end==-1){
         return 0;
