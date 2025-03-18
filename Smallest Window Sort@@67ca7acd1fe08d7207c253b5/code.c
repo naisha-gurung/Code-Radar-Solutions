@@ -4,7 +4,6 @@ int findUnsortedSubarray(int arr[],int n){
      for(int i=0;i<n;i++){
         arr2[i]=arr[i];
     }
-    printf("\n:");
     for(int i=1;i<n;i++){
         curr=arr2[i];
         prev=i-1;
