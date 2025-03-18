@@ -37,11 +37,10 @@ int findUnsortedSubarray(int arr[],int n){
         }
     }
     printf(":%d %d\n",start,end);
-    //  printf("\n%d",end);
     if(start==-1 && end==-1){
         return 0;
     }
-    int ans=end-start-1;
+    int ans=end-start+1;
     return ans;
 
 }
