@@ -30,7 +30,7 @@ int findUnsortedSubarray(int arr[],int n){
         }
     }
     for(int i=n-1;i>=0;i--){
-        printf("::%d",i);
+        printf("end::%d",end,i);
         if(arr[i]!=arr2[i]){
             end=i;
             break;
