@@ -9,10 +9,10 @@ int findUnsortedSubarray(int arr[],int n){
         curr=arr2[i];
         prev=i-1;
         while(prev >=0 && arr2[prev] > curr){
-            arr[prev + 1] = arr[prev];
+            arr2[prev + 1] = arr2[prev];
             --prev;
         }
-        arr[prev+1]=curr;
+        arr2[prev+1]=curr;
     }
     for(int i=0;i<n;i++){
         printf("%d",arr2[i]);
