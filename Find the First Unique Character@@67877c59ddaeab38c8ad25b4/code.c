@@ -20,7 +20,7 @@ int main(){
                 }
             }
         }
-        if(c){
+        if(c==1){
             printf("%c",word[i]);
             return 0;
         }
