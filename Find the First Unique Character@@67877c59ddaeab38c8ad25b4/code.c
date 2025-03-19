@@ -6,9 +6,8 @@ int main(){
     scanf("%s",word);
     char temp [50];
     int c;
-    for(int i=0;i<strlen(word);i++){
+    for(int i=0;i<strlen(word)-1;i++){
         c=1;
-      //  printf("%s %c\n",temp,word[i]);
         if(!(strchr(temp,word[i]))){
             for(int j=i+1;j<strlen(word);j++){
                 if(word[i]==word[j]){
@@ -26,6 +25,9 @@ int main(){
         }
         }
         
+    }
+    if(!(strchr(temp,word[i]))){
+        printf("%c",word[i]);
     }
     printf("-");
     return 0;
