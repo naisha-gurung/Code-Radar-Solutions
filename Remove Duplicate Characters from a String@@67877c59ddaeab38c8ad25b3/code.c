@@ -3,7 +3,7 @@
 #include <stdio.h>
 int main(){
     char word[50];
-    fget(word,sizeof(word),stdin);
+    fgets(word,sizeof(word),stdin);
     char temp[50];
     for(int i=0;i<strlen(word);i++){
         if(!(strchr(temp,word[i]))){
