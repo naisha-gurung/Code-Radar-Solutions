@@ -16,6 +16,7 @@ int main(){
                     temp2[1]='\0';
                     strcat(temp,temp2);
                     c=0;
+                    break;
                 }
             }
         }
