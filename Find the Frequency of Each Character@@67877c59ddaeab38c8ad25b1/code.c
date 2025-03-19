@@ -21,7 +21,7 @@ int main(){
         }
     }
     if(!(strchr(temp,w[strlen(w)-1]))){
-        printf("%c: 1",w[i]);
+        printf("%c: 1",w[strlen(w)-1]);
     }
     return 0;
     
