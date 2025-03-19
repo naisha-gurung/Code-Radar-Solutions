@@ -9,8 +9,8 @@ int main(){
         if(!(strchr(temp,word[i]))){
             printf("%c",word[i]);
             char temp1[2];
-            temp[0]=word[i];
-            temp[1]='\0';
+            temp1[0]=word[i];
+            temp1[1]='\0';
             strcat(temp,temp1);
         }
     }
