@@ -8,7 +8,7 @@ int main() {
         for(int j =0;j<x-1;j++){
             printf(" ");
         }
-        for(int k=0;k<y-1;k++){
+        for(int k=0;k<y;k++){
             printf("*");
         }
         printf("\n");
@@ -23,7 +23,7 @@ int main() {
         for(int j=0;j<a-1;j++){
             printf(" ");
         }
-        for(int k=0;k<b-1;k++){
+        for(int k=0;k<b;k++){
             printf("*");
         }
         printf("\n");
