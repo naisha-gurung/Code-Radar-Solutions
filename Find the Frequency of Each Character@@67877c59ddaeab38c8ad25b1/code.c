@@ -17,7 +17,7 @@ int main(){
             temp1[0]=w[i];
             temp1[1]='\0';
             strcat(temp,temp1);
-            printf("%c: %d",w[i],count);
+            printf("%c: %d\n",w[i],count);
         }
     }
     if(!(strchr(temp,w[strlen(w)-1]))){
