@@ -20,11 +20,12 @@ int main(){
                     break;
                 }
             }
-        }
-        if(c==1){
+            if(c){
             printf("%c",word[i]);
             return 0;
         }
+        }
+        
     }
     printf("-");
     return 0;
