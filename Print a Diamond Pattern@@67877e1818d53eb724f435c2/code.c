@@ -16,15 +16,14 @@ int main() {
         x-=1;
     }
     n-=1;
-      int a=2;
-
+    int a=2;
     int b=y-4;
 
     for(int i=0;i<n;i++){
-        for(int j=0;j<a;j++){
+        for(int j=0;j<a-1;j++){
             printf(" ");
         }
-        for(int k=0;k<b;k++){
+        for(int k=0;k<b-1;k++){
             printf("*");
         }
         printf("\n");
