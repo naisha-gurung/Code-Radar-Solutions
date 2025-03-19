@@ -26,8 +26,8 @@ int main(){
         }
         
     }
-    if(!(strchr(temp,word[i]))){
-        printf("%c",word[i]);
+    if(!(strchr(temp,word[strlen(word)-1]))){
+        printf("%c",word[strlen(word)-1]);
     }
     printf("-");
     return 0;
