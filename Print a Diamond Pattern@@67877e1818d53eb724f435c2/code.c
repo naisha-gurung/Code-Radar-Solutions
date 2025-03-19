@@ -16,6 +16,9 @@ int main() {
         x-=1;
     }
     n-=1;
+      int a=2;
+
+    int b=y-4;
 
     for(int i=0;i<n;i++){
         for(int j=0;j<a;j++){
