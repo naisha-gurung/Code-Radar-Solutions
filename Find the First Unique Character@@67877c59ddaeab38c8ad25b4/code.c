@@ -8,7 +8,7 @@ int main(){
     int c;
     for(int i=0;i<strlen(word);i++){
         c=1;
-        printf("\n%s %c",temp,word[i]);
+        printf("%s %c\n",temp,word[i]);
         if(!(strchr(temp,word[i]))){
             for(int j=i+1;j<strlen(word);j++){
                 if(word[i]==word[j]){
