@@ -9,9 +9,10 @@ void caesarCipher(char message[] ,int shift ,char encrypted[]){
         // }
         // else{
         // encrypted[i]=message[i]+shift;
-     }
+        
         char base = isupper(message[i]) ? 'A' : 'a';  // Determine base
             encrypted[i] = (message[i] - base + shift) % 26 + base;  // Shift with wraparound
+     }
         else {
             encrypted[i] = message[i];  // Keep non-letters unchanged
         }
