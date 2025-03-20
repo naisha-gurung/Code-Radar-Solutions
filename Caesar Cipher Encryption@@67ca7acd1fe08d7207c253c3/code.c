@@ -1,4 +1,5 @@
 // Your code here...
+#include <string.h>
 void caesarCipher(char message[] ,int shift ,char encrypted[]){
     for(int i=0;i<strlen(message);i++){
         //if(isalpha(message[i])){
