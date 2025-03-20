@@ -1,7 +1,7 @@
 // Your code here...
 #include <string.h>
 #include <ctype.h>
-void caesarCipher(char message[] ,int shift ,char encrypted[]){
+int caesarCipher(char message[] ,int shift ,char encrypted[]){
     for(int i=0;i<strlen(message);i++){
        if(isalpha(message[i])){
         if(!(isalpha(message[i]+shift))){
@@ -18,5 +18,6 @@ void caesarCipher(char message[] ,int shift ,char encrypted[]){
      for(int i=0;i<strlen(encrypted);i++){
         printf(encrypted[i]);
      }
+     return 0;
 
 }
