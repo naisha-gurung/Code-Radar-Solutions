@@ -17,5 +17,5 @@ void caesarCipher(char message[] ,int shift ,char encrypted[]){
         }
        
     }
-     encrypted[length] = '\0';
+     encrypted[strlen(message)] = '\0';
 }
