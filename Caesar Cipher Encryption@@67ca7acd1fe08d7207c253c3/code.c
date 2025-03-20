@@ -15,4 +15,8 @@ void caesarCipher(char message[] ,int shift ,char encrypted[]){
         encrypted[i]=message[i];
        }
     }
+     for(int i=0;i<strlen(encrypted);i++){
+        printf(encrypted[i]);
+     }
+
 }
