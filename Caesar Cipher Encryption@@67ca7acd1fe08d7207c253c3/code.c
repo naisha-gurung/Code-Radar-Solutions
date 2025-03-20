@@ -1,5 +1,5 @@
 // Your code here...
-int caesarCipher(char message[] ,int shift ,char encrypted[]){
+int caesarCipher(char message[100] ,int shift ,char encrypted[100]){
     for(int i=0;i<strlen(message);i++){
         if(isalpha(message[i])){
         encrypted[i]=message[i]+shift;
