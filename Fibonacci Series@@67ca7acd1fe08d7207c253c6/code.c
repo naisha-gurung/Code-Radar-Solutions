@@ -11,8 +11,9 @@ void fibonacciSeries(int n){
     if(n>2){
     for(int i=0;i<n;i++){
         printf(" %d",a+b);
+        int c=b;
         b=a+b;
-        a=b;
+        a=c;
         
         
     }
