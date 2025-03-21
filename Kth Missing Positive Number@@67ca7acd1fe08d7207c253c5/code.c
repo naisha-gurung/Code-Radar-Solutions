@@ -11,7 +11,9 @@ int  findKthMissing(int arr[],int n,int k){
                 return i;
             }
         }
-        ++j;
+        if(i==arr[j]){
+            ++j;
+        }
     }
     return arr[n-1]+1;
 
