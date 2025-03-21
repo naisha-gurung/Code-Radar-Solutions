@@ -12,5 +12,8 @@ int findOccurrence(int arr[],int n, int target , char mode){
             return i-1;
         }
     }
+    if(count>0 && mode=='L'){
+        return n-1;
+    }
     return -1;
 }
