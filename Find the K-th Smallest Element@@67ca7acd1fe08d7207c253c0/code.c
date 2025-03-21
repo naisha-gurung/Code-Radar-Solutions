@@ -1,5 +1,5 @@
 // Your code here...
-int kthSmallest(int arr[],int n;int k){
+int kthSmallest(int arr[],int n,int k){
     int curr;
     int prev;
     if(k>n){
