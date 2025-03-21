@@ -4,7 +4,6 @@ int  findKthMissing(int arr[],int n,int k){
     int count=0;
     int j=0;
     for(int i=1;i<=arr[n-1];i++){
-        printf("%d %d\n",i,arr[j]);
         if(i!=arr[j]){
             ++count;
             if(count==k){
