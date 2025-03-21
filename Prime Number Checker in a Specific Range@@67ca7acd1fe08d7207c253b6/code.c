@@ -1,5 +1,5 @@
 // Your code here...
-void printPrinesInRange(int a , int b){
+void printPrimesInRange(int a , int b){
     int c;
     for(int i=a;i<=b;i++){
         c=1;
@@ -9,7 +9,7 @@ void printPrinesInRange(int a , int b){
             }
         }
         if(c){
-            printf("%d",i);
+            printf("%d ",i);
         }
     }
 }
