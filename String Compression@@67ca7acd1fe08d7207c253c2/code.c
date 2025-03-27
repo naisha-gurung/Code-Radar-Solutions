@@ -31,7 +31,7 @@ void compressString(char str[],char compressed[]){
         for(int i=0;i<k+1;i++){
             compressed[x]=temp[i];
             compressed[x]=freq[i];
-            ++x;
+            x+=2;
         }
     }
     else{
