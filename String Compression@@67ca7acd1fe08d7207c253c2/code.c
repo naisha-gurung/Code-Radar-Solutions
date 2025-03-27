@@ -1,4 +1,5 @@
 // Your code here...
+#include <string.h>
 void compressString(char str[],char compressed[]){
     char temp[100];
     char freq[100];
