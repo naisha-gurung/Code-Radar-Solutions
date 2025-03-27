@@ -21,7 +21,7 @@ void compressString(char str[],char compressed[]){
         }
     }
     if(!(strchr(temp,str[strlen(str)]))){
-        temp[k]=str[i];
+        temp[k]=str[strlen(str)];
             temp[k+1]='\0';
             freq[k]=1;
     }
