@@ -16,7 +16,9 @@ void compressString(char str[],char compressed[]){
             }
             temp[k]=str[i];
             temp[k+1]='\0';
-            freq[k]=count;
+            char count1[3];
+            intToStr(count, count1);
+            freq[k]=count1;
             ++k;
         }
     }
