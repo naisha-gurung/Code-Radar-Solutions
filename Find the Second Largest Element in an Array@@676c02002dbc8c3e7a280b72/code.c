@@ -1,58 +1,41 @@
 #include <stdio.h>
-#include <stdbool.h>
-int main() {
-    int n;
-    scanf("%d",&n);
-    if(n==1){
-        printf("%d",-1);
-        return 0;
-    
-    }
-    int arr[n];
-    int arr2[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
-    }
-    if(n==2){
-        if(arr[1]>arr[0]){
-            printf("%d",arr[0]);
-        }
-        else{
-            printf("%d",arr[1]);
-        }
-        return 0;
-    }
-    int max=arr[0];
-    int index=0;
-    for(int i=0;i<n;i++){
-        if (max<arr[i]){
-                max=arr[i];
-                index=i;
-        }
-    }
-    int j=0;
-    for(int i=0;i<n;i++){
-        if (i!=index){
-            arr2[j]=arr[i];
-            j+=1;
 
-       }
-    }
-   bool c=false;
-    int max2=arr2[0];
-    for(int i=0;i<n-1;i++){
-        if(max2<=arr2[i]){
-            if(max !=arr2[i]){
-            max2=arr2[i];
-            c=true;
-            }
-    
-        }
-    }
-   if (c==false){
-    printf("%d",-1);
-    return 0;
+int main() {
+    //taking input of array 
+    int n,max;
+scanf("%d ",&n);
+int arr[n];
+   for(int i=0;i<n;i++){
+    scanf("%d",&arr[i]);
    }
-    printf("%d",max2);
+//max value
+
+for(int i=0;i<n;i++){
+    max=arr[0];//compare all with 0th element
+   if(max<arr[i]){
+    max=arr[i];
+    
+   }
+   }
+  
+int sec_max;
+
+for(int i=1;i<n;i++){
+    sec_max=arr[0];
+  if(arr[i]<max && arr[i]>sec_max)
+   sec_max=arr[i];
+
+ 
+    
+   }
+   
+   printf("%d",sec_max);
+
+
+
+  
+
+ 
+
     return 0;
 }
