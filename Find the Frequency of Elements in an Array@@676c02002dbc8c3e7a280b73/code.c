@@ -36,7 +36,7 @@ int main() {
 
         }
         arr2[x]=arr[i];
-        printf("%d %d",arr2[x],x);
+        printf("%d %d\n",arr2[x],x);
          x++;
         count=0;
     }
