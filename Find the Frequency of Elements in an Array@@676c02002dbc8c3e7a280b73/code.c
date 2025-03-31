@@ -32,12 +32,14 @@ int main() {
              count+=1;
          }
          }
-       // printf("%d %d\n",arr[i],count);
+         arr2[x]=arr[i];
+          x++;
+         printf("%d %d\n",arr[i],count);
 
         }
-        arr2[x]=arr[i];
-        printf("%d %d\n",arr2[x],x);
-         x++;
+        
+        //printf("%d %d\n",arr2[x],x);
+        
         count=0;
     }
     return 0;
