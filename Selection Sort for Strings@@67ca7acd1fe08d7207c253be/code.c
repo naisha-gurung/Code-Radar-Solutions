@@ -23,7 +23,7 @@ void selectionSort(char arr[][100],int n){
         strcpy(temp2, arr[temp]);
         strcpy(arr[temp], arr[i]);
         strcpy(arr[i], temp2);
-        printf("\n");
+      //  printf("\n");
     //      for(int i=0;i<n;i++){
     //     printf("%s ",arr[i]);
     // }
