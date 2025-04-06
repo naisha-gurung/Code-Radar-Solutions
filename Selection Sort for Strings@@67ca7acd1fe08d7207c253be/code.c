@@ -24,9 +24,9 @@ void selectionSort(char arr[][100],int n){
         strcpy(arr[temp], arr[i]);
         strcpy(arr[i], temp2);
         printf("\n");
-         for(int i=0;i<n;i++){
-        printf("%s ",arr[i]);
-    }
+    //      for(int i=0;i<n;i++){
+    //     printf("%s ",arr[i]);
+    // }
     }
 }
 
