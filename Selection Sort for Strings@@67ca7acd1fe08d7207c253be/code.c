@@ -6,9 +6,10 @@ void selectionSort(char arr[][100],int n){
     for(int i=0;i<n-1;i++){
        
         int temp=i;
-        x=0;
+       
 
         for(int j=i+1;j<n;j++){
+             x=0;
             while(arr[temp][x]==arr[j][x]){
                 ++x;
             }
