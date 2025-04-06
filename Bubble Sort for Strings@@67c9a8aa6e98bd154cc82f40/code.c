@@ -9,9 +9,9 @@ void bubbleSort(char arr[][100],int n){
             ++x;
         }
             if(arr[j][x]>arr[j+1][x]){
-                strcpy(temp,arr[j][x]);
-                strcpy(arr[j][x],arr[j+1][x]);
-                atrcpy(arr[j+1][x],temp);
+                strcpy(temp,arr[j]);
+                strcpy(arr[j],arr[j+1]);
+                atrcpy(arr[j+1],temp);
             }
         }
     }
