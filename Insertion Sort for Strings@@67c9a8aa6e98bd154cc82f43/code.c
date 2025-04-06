@@ -13,6 +13,7 @@ void insertionSort(char arr[][100],int n){
              printf("%s %s\n",arr[prev],arr[prev+1]);
             strcpy(arr[prev+1],arr[prev]);
             prev--;
+            printf("%s %s\n",arr[prev],arr[prev+1]);
             printf("%d\n",prev);
         }
          printf("%s\n",arr[prev+1]);
