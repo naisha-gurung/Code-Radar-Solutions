@@ -7,7 +7,7 @@ void insertionSort(char arr[][100],int n){
        strcpy(curr,arr[i]);
         prev=i-1;
         //printf("%s\n",curr);
-        while(prev>=0 && arr[prev][0]>arr[prev+1][0]){
+        while(prev>=0 && arr[prev][0]>curr){
             printf("%c %c\n",arr[prev][0],arr[prev+1][0]);
             
             // printf("%s %s\n",arr[prev],arr[prev+1]);
