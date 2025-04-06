@@ -7,10 +7,13 @@ void selectionSort(char arr[][100],int n){
        
         int temp=i;
         x=0;
+
         for(int j=i+1;j<n;j++){
             while(arr[temp][x]==arr[j][x]){
                 ++x;
             }
+            
+            printf("\n:%c %c",arr[temp][x],arr[j][x]);
             if(arr[temp][x]>arr[j][x]){
                 temp=j;
             }
