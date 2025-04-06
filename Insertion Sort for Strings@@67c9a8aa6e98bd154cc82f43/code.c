@@ -4,6 +4,7 @@ void insertionSort(char arr[][100],int n){
     char curr[100];
     int prev;
     for(int i=0;i<n-1;i++){
+        int x=0;
        strcpy(curr,arr[i]);
         prev=i-1;
         while(arr[prev+1][x]==arr[prev][x]){
