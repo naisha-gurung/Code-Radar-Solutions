@@ -9,9 +9,9 @@ void selectionSort(char arr[][100],int n){
         x=0;
 
         for(int j=i+1;j<n;j++){
-            while(arr[temp][x]==arr[j][x]){
-                ++x;
-            }
+            // while(arr[temp][x]==arr[j][x]){
+            //     ++x;
+            // }
             
             if(arr[temp][x]>arr[j][x]){
                 
