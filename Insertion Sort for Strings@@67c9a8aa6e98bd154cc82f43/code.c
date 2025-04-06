@@ -7,15 +7,15 @@ void insertionSort(char arr[][100],int n){
         int x=0;
        strcpy(curr,arr[i]);
         prev=i-1;
-        while(arr[prev+1][x]==arr[prev][x]){
-            ++x;
-        }
+        // while(arr[prev+1][x]==arr[prev][x]){
+        //     ++x;
+        // }
         while(prev>=0 && arr[prev][x]>arr[prev+1][x]){
             strcpy(arr[prev+1],arr[prev]);
             prev--;
-            while(arr[prev+1][x]==arr[prev][x]){
-            ++x;
-        }
+        //     while(arr[prev+1][x]==arr[prev][x]){
+        //     ++x;
+        // }
         }
         strcpy(arr[prev+1],curr);
     }
