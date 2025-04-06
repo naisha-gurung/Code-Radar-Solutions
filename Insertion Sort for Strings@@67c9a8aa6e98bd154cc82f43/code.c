@@ -1,7 +1,7 @@
 // Your code here...
 #include <string.h>
 void insertionSort(char arr[][100],int n){
-    char curr;
+    char curr[100];
     int prev;
     for(int i=0;i<n-1;i++){
        strcpy(curr,arr[i]);
