@@ -15,11 +15,12 @@ void insertionSort(char arr[][100],int n){
         }
          printf("%s\n",arr[prev+1]);
         strcpy(arr[prev+1],curr);
-    }
-    printf("\n");
+        printf("\n");
     for(int i=0;i<n;i++){
         printf("%s ",arr[i]);
     }
+    }
+    
 }
 void printArray(char arr[][100],int n){
     for(int i=0;i<n;i++){
