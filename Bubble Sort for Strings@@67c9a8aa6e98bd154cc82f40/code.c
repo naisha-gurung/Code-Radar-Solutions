@@ -11,7 +11,7 @@ void bubbleSort(char arr[][100],int n){
             if(arr[j][x]>arr[j+1][x]){
                 strcpy(temp,arr[j]);
                 strcpy(arr[j],arr[j+1]);
-                atrcpy(arr[j+1],temp);
+                strcpy(arr[j+1],temp);
             }
         }
     }
