@@ -1,5 +1,6 @@
 // Your code here...
 void selectionSort(char arr[][100],int n){
+    char temp2[100];
     for(int i=0;i<n-1;i++){
         int temp=i;
         for(int j=i+1;j<n;j++){
@@ -7,8 +8,7 @@ void selectionSort(char arr[][100],int n){
                 temp=j;
             }
         }
-        strncpy(temp2, arr[temp], sizeof(temp2) - 1);
-        temp2[sizeof(temp2) - 1] = '\0';
+        strncpy(temp2, arr[temp]);
         arr[temp]=arr[i];
         arr[i]=temp2;
     }
