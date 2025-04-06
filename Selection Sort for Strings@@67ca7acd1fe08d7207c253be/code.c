@@ -1,4 +1,6 @@
 // Your code here...
+#include <string.h>
+
 void selectionSort(char arr[][100],int n){
     char temp2[100];
     for(int i=0;i<n-1;i++){
