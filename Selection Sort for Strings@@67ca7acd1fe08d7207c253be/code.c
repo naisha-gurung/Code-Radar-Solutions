@@ -15,7 +15,7 @@ void selectionSort(char arr[][100],int n){
             
             if(arr[temp][x]>arr[j][x]){
                 
-            printf("\n:%c %c",arr[temp][x],arr[j][x]);
+           // printf("\n:%c %c",arr[temp][x],arr[j][x]);
                 temp=j;
             }
         }
