@@ -12,7 +12,7 @@ void selectionSort(char arr[][100],int n){
             while(arr[temp][x]==arr[j][x]){
                 ++x;
             }
-            printf("%d\n",x);
+            printf("%s %s %d\n",arr[temp],arr[j],x);
             
             if(arr[temp][x]>arr[j][x]){
                 
