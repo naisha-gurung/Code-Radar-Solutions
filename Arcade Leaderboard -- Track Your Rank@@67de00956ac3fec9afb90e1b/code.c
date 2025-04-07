@@ -1,7 +1,10 @@
 // Your code here...
 void trackPlayerRanks(int ranked[],int n , int player[],int m,int result[]){
     int x=1;
-    int rank[n]={0};
+    int rank[n];
+    for(int i=0;i<n;i++){
+        rank[i]=0;
+    }
     for(int i=0;i<n-1;i++){
         rank[i]=x;
         if(ranked[i+1]<ranked[i]){
