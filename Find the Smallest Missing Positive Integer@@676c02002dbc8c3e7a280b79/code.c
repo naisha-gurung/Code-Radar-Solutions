@@ -29,23 +29,23 @@ int main() {
         printf("%d",1);
         return 0;
     }
-    int sum=0;
-    int min=arr2[0];
-    int max=arr2[0];
-    for(int i=0;i<j;i++){
-        sum+=arr2[i];
-        if (arr2[i]<min){
-            min=arr2[i];
-        }
-        else if(arr2[i]>max){
-            max=arr2[i];
-        }
-    }
-    printf("%d %d %d",min,max,j);
-    int sum=0;
-    for(int i=min;i<max+2;i++){
-        sum2+=i;
-    }
-    printf("%d",sum2-sum);
+    // int sum=0;
+    // int min=arr2[0];
+    // int max=arr2[0];
+    // for(int i=0;i<j;i++){
+    //     sum+=arr2[i];
+    //     if (arr2[i]<min){
+    //         min=arr2[i];
+    //     }
+    //     else if(arr2[i]>max){
+    //         max=arr2[i];
+    //     }
+    // }
+    // printf("%d %d %d",min,max,j);
+    // int sum=0;
+    // for(int i=min;i<max+2;i++){
+    //     sum2+=i;
+    // }
+    // printf("%d",sum2-sum);
     return 0;
 }
