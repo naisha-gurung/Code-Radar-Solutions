@@ -6,7 +6,7 @@ int digitRightShift(int n){
         ++count;
     }
     int a=n%10;
-    int b=n/10,x;
+    int b=n/10,x=1;
     for(int i=0;i<n;i++){
         x*=10;
     }
