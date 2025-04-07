@@ -8,7 +8,7 @@ int digitRightShift(int n){
     }
     int a=m%10;
     int b=m/10,x=1;
-    for(int i=0;i<n;i++){
+    for(int i=0;i<count;i++){
         x*=10;
     }
     printf("%d %d %d",a,b,x);
