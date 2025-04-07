@@ -6,6 +6,7 @@ int digitRightShift(int n){
         n/=10;
         ++count;
     }
+    printf("%d",count);
     int a=m%10;
     int b=m/10,x=1;
     for(int i=0;i<count;i++){
