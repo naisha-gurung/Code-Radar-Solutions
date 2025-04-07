@@ -13,16 +13,11 @@ void trackPlayerRanks(int ranked[],int n , int player[],int m,int result[]){
         
     }
     rank[n-1]=x;
-    // for(int i=0;i<n;i++){
-    //     printf("%d ",rank[i]);
-    // }
     for(int j=0;j<m;j++){
         for(int i=n-1;i>=0;i--){
-          //  printf("%d %d\n",ranked[i],player[j]);
             if(ranked[i]>player[j])
             {
                 result[j]=rank[i]+1;
-                //printf(":%d %d",rank[i]+1,result[j]);
                 break;
         }
         else if(ranked[i]==player[j]){
