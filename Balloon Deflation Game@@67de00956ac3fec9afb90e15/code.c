@@ -3,7 +3,7 @@ void defalteBalloons(int arr[],int n){
     int prev,curr;
     for(int i=1;i<n;i++){
         curr=arr[i];
-        prev=i-1
+        prev=i-1;
         while(prev>=0 && arr[prev]>curr){
             arr[prev+1]=arr[prev];
             prev--;
