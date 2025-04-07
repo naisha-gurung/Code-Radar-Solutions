@@ -28,5 +28,6 @@ int findUnsortedSubarray(int arr[],int n){
              b=i;
         }
     }
+    printf("%d %d",b,a);
     return b-a;
 }
