@@ -9,10 +9,9 @@ int digitRightShift(int n){
     printf("%d\n",count);
     int a=m%10;
     int b=m/10,x=1;
-    for(int i=0;i<count;i++){
+    for(int i=1;i<count;i++){
         x*=10;
     }
-    printf("%d %d %d ",a,b,x);
     int ans=a*x+b;
     return ans;
 }
