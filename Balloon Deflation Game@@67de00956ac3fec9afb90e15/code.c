@@ -1,5 +1,5 @@
 // Your code here...
-void defalteBalloons(int air[],int n){
+void defalteBalloons(int arr[],int n){
     int prev,curr;
     for(int i=1;i<n;i++){
         curr=arr[i];
