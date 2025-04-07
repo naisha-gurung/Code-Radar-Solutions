@@ -19,8 +19,7 @@ void deflateBalloons(int arr[],int n){
             arr[i]=arr[i]-smallest_ballon;
 
         }
-       }
-        int count=0;
+         int count=0;
         for(int i=0;i<n;i++){
             if(arr[i]>0){
                 ++count;
@@ -30,5 +29,7 @@ void deflateBalloons(int arr[],int n){
             break;
         }
         printf("%d\n",count);
+       }
+       
     }
 }
