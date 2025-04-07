@@ -6,7 +6,7 @@ int binarySearch(int arr[],int n,int target){
     while(start<end ){
 
         temp=start+((end-start)/2);
-        printf("%d %d %d",start,end,temp);
+        printf("%d %d %d\n",start,end,temp);
     if(arr[temp]==target){
         return temp;
     }
