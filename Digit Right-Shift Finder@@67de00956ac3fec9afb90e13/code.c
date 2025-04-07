@@ -10,6 +10,7 @@ int digitRightShift(int n){
     for(int i=0;i<n;i++){
         x*=10;
     }
+    printf("%d %d %d",a,b,x);
     int ans=a*x+b;
     return ans;
 }
