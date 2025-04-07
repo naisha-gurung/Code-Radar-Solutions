@@ -23,9 +23,9 @@ void trackPlayerRanks(int ranked[],int n , int player[],int m,int result[]){
         }
         
     }
-    if(resukt[j]==0){
+    if(result[j]==0){
         result[j]=1;
-    }
+    }}
 
 
 }
