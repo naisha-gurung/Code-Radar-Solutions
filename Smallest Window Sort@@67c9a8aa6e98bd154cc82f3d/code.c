@@ -1,5 +1,5 @@
 // Your code here...
-void findUnsortedSubarray(int arr[],int n){
+int findUnsortedSubarray(int arr[],int n){
     int arr2[n];
     for(int i=0;i<n;i++){
 
@@ -28,5 +28,5 @@ void findUnsortedSubarray(int arr[],int n){
              b=i;
         }
     }
-    printf("%d",b-a);
+    return b-a;
 }
