@@ -14,6 +14,7 @@ void trackPlayerRanks(int ranked[],int n , int player[],int m,int result[]){
     rank[n-1]=x;
     for(int j=0;j<m;j++){
         for(int i=n-1;i>=0;i--){
+            printf("%d %d",ranked[i],ranked[j])
             if(ranked[i]>ranked[j])
             {
                 result[j]=rank[i]-1;
