@@ -3,7 +3,7 @@ void trackPlayerRanks(int ranked[],int n , int player[],int m,int result[]){
     int x=1;
     int rank[n];
     for(int i=0;i<n;i++){
-        rank[i]=0;
+        result[i]=0;
     }
     for(int i=0;i<n-1;i++){
         rank[i]=x;
