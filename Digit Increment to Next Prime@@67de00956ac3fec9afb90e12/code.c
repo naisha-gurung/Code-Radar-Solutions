@@ -3,7 +3,7 @@ int incrementToPrimeDigits(int n){
     int ans=0,y;
     while(n>0){
         int x=n%10;
-        if(x=>7){
+        if(x>=7){
             y=2;
         }
         else if(x>=5){
