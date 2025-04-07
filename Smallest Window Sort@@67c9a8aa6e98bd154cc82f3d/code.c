@@ -2,7 +2,7 @@
 int findUnsortedSubarray(int arr[],int n){
     int arr2[n];
     for(int i=0;i<n;i++){
-
+        arr2[i]=arr[i];
     }
     int prev,curr;
     for(int i=1;i<n;i++){
