@@ -1,5 +1,5 @@
 // Your code here...
-int binarySearch(int arr[],int n){
+int binarySearch(int arr[],int n,int target){
     int start=0;
     int end=n;
     int temp=end/2;
