@@ -1,5 +1,6 @@
 // Your code here...
 void deflateBalloons(int arr[],int n){
+    printf("%d\n",n);
     int prev,curr;
     for(int i=1;i<n;i++){
         curr=arr[i];
@@ -18,15 +19,16 @@ void deflateBalloons(int arr[],int n){
             arr[i]=arr[i]-smallest_ballon;
 
         }
-        for(int i=0;i<n;i++){
-            printf("%d ",arr[i]);
-        }}
+       }}
         int count=0;
         for(int i=0;i<n;i++){
             if(arr[i]>0){
                 ++count;
             }
         }
-        printf("\n%d\n",count);
+        if(count==0){
+            break;
+        }
+        printf("%d\n",count);
     }
 }
