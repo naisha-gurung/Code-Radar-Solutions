@@ -22,7 +22,7 @@ void trackPlayerRanks(int ranked[],int n , int player[],int m,int result[]){
             if(ranked[i]>player[j])
             {
                 result[j]=rank[i]-1;
-                printf(":%d",rank[i]+1);
+                printf(":%d %d",rank[i]+1,result[j]);
                 break;
         }
         else if(ranked[i]==player[j]){
@@ -34,7 +34,8 @@ void trackPlayerRanks(int ranked[],int n , int player[],int m,int result[]){
     }
     if(result[j]==0){
         result[j]=1;
-    }}
+    }
+    }
 
 
 }
