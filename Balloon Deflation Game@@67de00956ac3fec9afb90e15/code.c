@@ -19,7 +19,7 @@ void deflateBalloons(int arr[],int n){
 
         }
         for(int i=0;i<n;i++){
-            printf("%d",arr[i]);
+            printf("%d ",arr[i]);
         }}
         int count=0;
         for(int i=0;i<n;i++){
@@ -27,6 +27,6 @@ void deflateBalloons(int arr[],int n){
                 ++count;
             }
         }
-        printf("%d\n",count);
+        printf("\n%d\n",count);
     }
 }
