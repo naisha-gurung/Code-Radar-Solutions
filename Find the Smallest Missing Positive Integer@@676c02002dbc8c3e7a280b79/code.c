@@ -10,14 +10,14 @@ int main() {
      for(int i=0;i<n;i++){
         printf("%d ",arr[i]);
      }
-    // if(n==1){
-    //     if (arr[0]!=1){
-    //     printf("%d",1);}
-    //     else{
-    //         printf("%d",2);
-    //     }
-    //     return 0;
-    // }
+    if(n==1){
+        if (arr[0]!=1){
+        printf("%d",1);}
+        else{
+            printf("%d",2);
+        }
+        return 0;
+    }
     // int j=0;
     // for(int i=0;i<n;i++){
     //     if (arr[i]>0){
