@@ -16,10 +16,11 @@ void findUnsortedSubarray(int arr[],int n){
     }
     int c=1;
     int b=0;
+    int a=0;
     for(int i=0;i<n;i++){
         if(arr[i]!=arr2[i]){
            c=0;
-           int a=i;
+           a=i;
             
         }
         if(c==0){
