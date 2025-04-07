@@ -11,8 +11,8 @@ void deflateBalloons(int arr[],int n){
         arr[prev+1]=curr;
     }
     int smallest_ballon;
-    for(int i=n-1;i>=0;i--){
-        if((i<n-1 && arr[i]!=arr[i+1]) || (i==n-1)){
+    for(int i=0;i<n;i++){
+        if((i>0 && arr[i]!=arr[i-1]) || (i==0)){
         smallest_ballon=arr[i];
         for(int i=0;i<n;i++){
             arr[i]=arr[i]-smallest_ballon;
