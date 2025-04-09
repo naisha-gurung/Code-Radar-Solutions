@@ -26,7 +26,7 @@ void compressString(char str[100],char compressed[100]) {;
 
         //Calculate freq
          for(int j=0;j<n;j++){
-         if (str[i]==arr[j]){
+         if (str[i]==str[j]){
              count+=1;
          }
          }
