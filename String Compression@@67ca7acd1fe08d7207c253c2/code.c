@@ -1,5 +1,6 @@
 // Your code here...
 #include <stdio.h>
+#include <string.h>
 #include <stdbool.h>
 
 //if number is present in the array returns false 
