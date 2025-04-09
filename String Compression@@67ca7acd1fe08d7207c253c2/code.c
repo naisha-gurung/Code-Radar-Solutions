@@ -4,7 +4,7 @@
 #include <stdbool.h>
 
 //if number is present in the array returns false 
-bool check(int arr2[],int temp,int n){
+bool check(char arr2[],char temp,int n){
     if (n==0){
         return true;
     }
