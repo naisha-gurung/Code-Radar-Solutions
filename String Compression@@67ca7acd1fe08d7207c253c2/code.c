@@ -14,6 +14,7 @@ bool check(int arr2[],int temp,int n){
 }
 void compressString(char str[100],char compressed[100]) {;
     int x=0;
+    int n=strlen(str);
     int freq[n];
     char arr2[n];
     int count=0;
