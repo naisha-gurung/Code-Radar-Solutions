@@ -1,46 +1,47 @@
 // Your code here...
 #include <stdio.h>
-#include <string.h>
-void compressString(char str[],char compressed[]){
-    char temp[100];
-    char freq[100];
-    int k=0;
-    int count;
-    for(int i=0;i<strlen(str)-1;i++){
+#include <stdbool.h>
+
+//if number is present in the array returns false 
+bool check(int arr2[],int temp,int n){
+    if (n==0){
+        return true;
+    }
+    for(int i=0;i<n;i++){
+        if (temp==arr2[i]){
+            return false;}}
+    return true;
+}
+void compressString(char str[100],char compressed[100]) {;
+    int x=0;
+    int freq[n];
+    char arr2[n];
+    int count=0;
+    for (int i=0;i<n;i++){
         count=0;
-        if(!(strchr(temp,str[i]))){
-            for(int j=i+1;j<strlen(str);j++){
-                if(str[j]==str[i]){
-                    ++count;
-                }
+        //if number is not in arr2 check func will return true and count the freq
+       if (check(arr2,str[i],x)){
 
-            }
-            temp[k]=str[i];
-            temp[k+1]='\0';
-            char count1[3];
-            intToStr(count, count1);
-            freq[k]=count1;
-            ++k;
-        }
-    }
-    if(!(strchr(temp,str[strlen(str)]))){
-        temp[k]=str[strlen(str)];
-            temp[k+1]='\0';
-            freq[k]=1;
-    }
+        //Calculate freq
+         for(int j=0;j<n;j++){
+         if (str[i]==arr[j]){
+             count+=1;
+         }
+         }
+         arr2[x]=str[i];
+         freq[x]=count;
+          x++;
 
-    if(k*2<strlen(str)){
-        int x=0;
-        for(int i=0;i<k+1;i++){
-            compressed[x]=temp[i];
-            compressed[x]=freq[i];
-            x+=2;
         }
+        
+        count=0;
     }
-    else{
-        for(int i=0;i<k+1;i++){
-            compressed[i]=str[i];
-        }
+    for(int i=0;i<x;i++){
+        strcat(compressed,arr2[i]);
+        snprintf(y,"%d",freq[i]);
+        strcat(compressed,y);
     }
-    
+    // if(strlen(compressed)>strlen(str)){
+
+    // }
 }
