@@ -19,6 +19,7 @@ void compressString(char str[100],char compressed[100]) {;
     int freq[n];
     char arr2[n];
     int count=0;
+    compressed[0] = '\0';
     for (int i=0;i<n;i++){
         count=0;
         //if number is not in arr2 check func will return true and count the freq
@@ -35,9 +36,9 @@ void compressString(char str[100],char compressed[100]) {;
           x++;
 
         }
-        
         count=0;
     }
+    
     for(int i=0;i<x;i++){
         char y[10];
         strncat(compressed,&arr2[i],1);
