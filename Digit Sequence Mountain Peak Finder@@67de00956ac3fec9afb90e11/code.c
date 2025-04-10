@@ -1,5 +1,5 @@
 // Your code here...
-int mountainpeak(int n){
+int mountainPeak(int n){
     int m=n;
     int count=0;
     while(m>0){
