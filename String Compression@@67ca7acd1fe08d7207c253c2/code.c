@@ -46,7 +46,7 @@ void compressString(char str[100],char compressed[100]) {;
         snprintf(y, sizeof(y),"%d",freq[i]);
         strcat(compressed,y);}
     }
-    if(strlen(compressed)>strlen(str)){
+    if(strlen(compressed)>=strlen(str)){
         strcpy(compressed, str); 
     }
 }
