@@ -1,6 +1,6 @@
 // Your code here...
 int mountainpeak(int n){
-    int n=m;
+    int m=n;
     int count=0;
     while(m>0){
         m/10;
