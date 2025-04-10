@@ -13,7 +13,7 @@ int mountainPeak(int n){
     n/=10;
     int curr=n%10;
     n/=10;
-    if(prev<curr ){
+    if(prev>curr ){
         if(c==0){
             c=1;
             ans=prev;
