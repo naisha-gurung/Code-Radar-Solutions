@@ -40,7 +40,7 @@ void compressString(char str[100],char compressed[100]) {;
     }
     for(int i=0;i<x;i++){
         char y[10];
-        strcat(compressed,&arr2[i],1);
+        strncat(compressed,&arr2[i],1);
         snprintf(y, sizeof(y),"%d",freq[i]);
         strcat(compressed,y);
     }
