@@ -14,38 +14,28 @@ bool check(char arr2[],char temp,int n){
     return true;
 }
 void compressString(char str[100],char compressed[100]) {;
-    int x=0;
     int n=strlen(str);
-    int freq[n];
-    char arr2[n];
-    int count=0;
+    int count=1;
+    char y[10];
     compressed[0] = '\0';
-    for (int i=0;i<n;i++){
-        count=0;
-        //if number is not in arr2 check func will return true and count the freq
-       if (check(arr2,str[i],x)){
-
-        //Calculate freq
-         for(int j=0;j<n;j++){
-         if (str[i]==str[j]){
+    for (int i=1;i<n-1;i++){
+        if(str[i]!=str[i+1]){      
+             strncat(compressed,&str[i],1);
+        if(count>1){
+        snprintf(y, sizeof(y),"%d",count);
+        strcat(compressed,y);}
+        count=1;
+        }
+         else if (str[i]==str[j]){
              count+=1;
          }
-         }
-         arr2[x]=str[i];
-         freq[x]=count;
-          x++;
-
+         
+    }
+     if(str[n-1]!=str[n-2]){      
+             strncat(compressed,&str[n-1],1);
+      
         }
-        count=0;
-    }
-    
-    for(int i=0;i<x;i++){
-        char y[10];
-        strncat(compressed,&arr2[i],1);
-        if(freq[i]>1){
-        snprintf(y, sizeof(y),"%d",freq[i]);
-        strcat(compressed,y);}
-    }
+  
     if(strlen(compressed)>=strlen(str)){
         strcpy(compressed, str); 
     }
