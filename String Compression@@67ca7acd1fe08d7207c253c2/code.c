@@ -8,7 +8,7 @@ void compressString(char str[100],char compressed[100]) {;
     int count=1;
     char y[10];
     compressed[0] = '\0';
-    for (int i=1;i<n-1;i++){
+    for (int i=0;i<n-1;i++){
         if(str[i]!=str[i+1]){      
              strncat(compressed,&str[i],1);
         if(count>1){
