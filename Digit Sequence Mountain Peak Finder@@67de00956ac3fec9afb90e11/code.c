@@ -11,9 +11,13 @@ int mountainPeak(int n){
     int prev=n%10;
     n/=10;
     int curr=n%10;
+    int t=0;
     while(n>0){
     n/=10;
    printf("%d %d %d\n",curr,prev,n);
+   if(curr>prev){
+    t=1;
+   }
     if(prev>=curr ){
         if(c==0){
             c=1;
@@ -28,7 +32,7 @@ int mountainPeak(int n){
     prev=curr;
     curr=n%10;
     }
-    if(c==0){
+    if(c==0 || t==0){
         return -1;
     }
     return ans;
