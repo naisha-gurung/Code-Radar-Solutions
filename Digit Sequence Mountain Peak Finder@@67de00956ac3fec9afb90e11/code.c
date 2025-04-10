@@ -18,10 +18,6 @@ int mountainPeak(int n){
             c=1;
             ans=curr;
         }
-        else{
-            printf(":");
-            return -1;
-        }
     }}
     if(c==0){
         return -1;
