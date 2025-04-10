@@ -26,8 +26,8 @@ int mountainPeak(int n){
             return -1;
         }
     }
-    curr=prev;
-    prev=n%10;
+    prev=curr;
+    curr=n%10;
     n/=10;}
     if(c==0){
         return -1;
