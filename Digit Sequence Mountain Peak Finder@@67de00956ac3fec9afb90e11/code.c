@@ -16,7 +16,7 @@ int mountainPeak(int n){
     if(prev<curr ){
         if(c==0){
             c=1;
-            ans=curr;
+            ans=prev;
         }
     }}
     if(c==0){
