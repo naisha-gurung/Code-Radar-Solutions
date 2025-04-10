@@ -1,18 +1,8 @@
 // Your code here...
 #include <stdio.h>
 #include <string.h>
-#include <stdbool.h>
 
-//if number is present in the array returns false 
-bool check(char arr2[],char temp,int n){
-    if (n==0){
-        return true;
-    }
-    for(int i=0;i<n;i++){
-        if (temp==arr2[i]){
-            return false;}}
-    return true;
-}
+
 void compressString(char str[100],char compressed[100]) {;
     int n=strlen(str);
     int count=1;
@@ -26,7 +16,7 @@ void compressString(char str[100],char compressed[100]) {;
         strcat(compressed,y);}
         count=1;
         }
-         else if (str[i]==str[j]){
+         else if (str[i]==str[i+1]){
              count+=1;
          }
          
