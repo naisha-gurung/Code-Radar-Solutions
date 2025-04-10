@@ -26,7 +26,6 @@ void compressString(char str[100],char compressed[100]) {;
       
         }
         else {
-            count+=1;
             strncat(compressed,&str[n-1],1);
         if(count>1){
         snprintf(y, sizeof(y),"%d",count);
